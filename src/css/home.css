@@ -11,9 +11,14 @@ html {
     height: 100vh;
 }
 
-.backgroundHome {
-    background-image: url('../../assets/fondo-home.png');
+body {
+    background-image: url(../../assets/fondo-home.png);
     background-size: cover;
+    background-position: center;
+}
+
+.vh100 {
+    height: 100vh;
 }
 
 .vh80 {
@@ -22,7 +27,6 @@ html {
 
 .container-icons {
     margin-left: 91rem;
-    padding-bottom: 1rem;
     display: flex;
     width: 13rem;
     justify-content: space-between;
@@ -37,10 +41,10 @@ html {
 }
 
 .border-white-btn {
-    background: #fff0;
+    background: rgba(0, 0, 0, 0);
     border: 1px solid;
-    padding: 4px 25px;
-    border-radius: 16px;
+    padding: .5rem 1.5rem;
+    border-radius: 5rem;
 }
 
 .menu-brg {
@@ -61,10 +65,12 @@ html {
     justify-content: space-between;
 }
 
-.contmenu-btn {
-    display: flex;
-    width: 24rem;
-    justify-content: space-around;
-    padding-top: 2.1rem;
-    padding-left: 1.1rem;
+@media (max-width: 600px) {
+    .container-icons {
+        margin-left: 70rem;
+        width: 31rem;
+    }
+    .iconH {
+        font-size: 5.5rem;
+    }
 }
