@@ -68,7 +68,7 @@ enterInsq1.addEventListener('click', function() {
     function redireccionar() {
         location.href = pagina
     }
-    setTimeout('redireccionar()', 60000);
+    setTimeout(redireccionar, 900);
 });
 
 //fin de accion click 1 y red 
@@ -86,12 +86,12 @@ enterInsq2.addEventListener('click', function() {
     sq2click.play();
     sq1clickinsq2.play();
     sq1clickinsq3.play();
-    const pagina = "./bienestarAnimal.html"
+    const pagina = "./Enciclopediadelacarne.html"
 
     function redireccionar() {
         location.href = pagina
     }
-    setTimeout('redireccionar()', 60000);
+    setTimeout(redireccionar, 900);
 });
 //fin acion 2
 
@@ -101,12 +101,12 @@ enterInsq2.addEventListener('click', function() {
     sq2click.play();
     sq1clickinsq2.play();
     sq1clickinsq3.play();
-    const pagina = "./bienestarAnimal.html"
+    const pagina = "./blog.html"
 
     function redireccionar() {
         location.href = pagina
     }
-    setTimeout(redireccionar, 500);
+    setTimeout(redireccionar, 900);
 });
 //fin click 3
 
