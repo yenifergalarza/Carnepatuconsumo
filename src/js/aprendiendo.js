@@ -106,76 +106,54 @@ enterInsq2.addEventListener('click', function() {
     function redireccionar() {
         location.href = pagina
     }
-    setTimeout('redireccionar()', 60000);
+    setTimeout(redireccionar, 500);
 });
 //fin click 3
 
-//hover s1
-var sq1hover = anime({
-    targets: '.sq1',
-    scale: 1.1,
-    easing: 'spring(1, 80, 10, 100)'
 
-});
-var sqhover = document.querySelector('.sq1');
-sqhover.addEventListener('mouseenter', function() {
-    sq1hover.play();
-}, false);
-
-var sq1deshover = anime({
-    targets: '.sq1',
-    scale: 1,
-    easing: 'linear'
-
-});
-sqhover.addEventListener('mouseleave', function() {
-    sq1deshover.play();
-}, false);
-//fin de hover sq1
+// //hover s2
+// var sq2hover = anime({
+//     targets: '.sq2',
+//     scale: 1.1,
+//     easing: 'spring(1, 80, 10, 100)',
 
 
-//hover s2
-var sq2hover = anime({
-    targets: '.sq2',
-    scale: 1.1,
-    easing: 'spring(1, 80, 10, 100)'
+// });
+// var sqhover2 = document.querySelector('.sq2');
+// sqhover2.addEventListener('mouseenter', function() {
+//     sq2hover.play();
+// }, false);
 
-});
-var sqhover2 = document.querySelector('.sq2');
-sqhover2.addEventListener('mouseenter', function() {
-    sq2hover.play();
-}, false);
+// var sq2deshover = anime({
+//     targets: '.sq2',
+//     scale: 1,
+//     easing: 'spring(1, 80, 10, 100)'
 
-var sq2deshover = anime({
-    targets: '.sq2',
-    scale: 1,
-    easing: 'spring(1, 80, 10, 100)'
+// });
+// sqhover2.addEventListener('mouseleave', function() {
+//     sq2deshover.play();
+// }, false);
+// //fin de hover sq2
 
-});
-sqhover2.addEventListener('mouseleave', function() {
-    sq2deshover.play();
-}, false);
-//fin de hover sq2
+// //hover s2
+// var sq3hover = anime({
+//     targets: '.sq3',
+//     scale: 1.1,
+//     easing: 'spring(1, 80, 10, 100)'
 
-//hover s2
-var sq3hover = anime({
-    targets: '.sq3',
-    scale: 1.1,
-    easing: 'spring(1, 80, 10, 100)'
+// });
+// var sqhover3 = document.querySelector('.sq3');
+// sqhover3.addEventListener('mouseenter', function() {
+//     sq3hover.play();
+// }, false);
 
-});
-var sqhover3 = document.querySelector('.sq3');
-sqhover3.addEventListener('mouseenter', function() {
-    sq3hover.play();
-}, false);
+// var sq3deshover = anime({
+//     targets: '.sq3',
+//     scale: 1,
+//     easing: 'spring(1, 80, 10, 100)'
 
-var sq3deshover = anime({
-    targets: '.sq3',
-    scale: 1,
-    easing: 'spring(1, 80, 10, 100)'
-
-});
-sqhover3.addEventListener('mouseleave', function() {
-    sq3deshover.play();
-}, false);
-//fin de hover sq2
+// });
+// sqhover3.addEventListener('mouseleave', function() {
+//     sq3deshover.play();
+// }, false);
+// //fin de hover sq2

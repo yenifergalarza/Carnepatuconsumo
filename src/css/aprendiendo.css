@@ -42,6 +42,18 @@ body {
 
 .sq1-text {}
 
+.sq1:hover {
+    transform: translateY(0px) scale(1.1) !important;
+}
+
+.sq2:hover {
+    transform: translateY(0px) scale(1.1) !important;
+}
+
+.sq3:hover {
+    transform: translateY(0px) scale(1.1) !important;
+}
+
 .sq2-text {
     text-align: center;
     border: white solid;
