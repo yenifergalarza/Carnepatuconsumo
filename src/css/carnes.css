@@ -77,11 +77,10 @@
 }
 
 .title {
-    margin: 2.5rem 0 2rem;
+    margin: 1.5rem 0 2rem;
     font-size: 2.2rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #8cd467;
 }
 
  ::-webkit-scrollbar {
@@ -112,8 +111,8 @@
     height: 100vh;
     position: relative;
     top: -11vh;
-    /* background-color: rgba(0, 0, 0, 0.43); */
-    background-image: url("../../assets/Carne.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A2037.jpg);
+    background-position-x: center;
 }
 
 .carnePrincipalCard {
@@ -139,15 +138,9 @@
     width: 40%;
 }
 
-ul {
-    margin: 0.75em 0;
-    padding: 0 1em;
-    list-style: none;
-}
-
-li:before {
+.triangle:before {
     content: "";
-    border-color: transparent #111;
+    border-color: transparent #fff;
     border-style: solid;
     border-width: 0.35em 0 0.35em 0.45em;
     display: block;
@@ -158,6 +151,138 @@ li:before {
     position: relative;
 }
 
-li {
-    list-style-type: none;
+.radio {
+    margin: 16px 0;
+    margin-left: 1.6rem;
+    display: block;
+    cursor: pointer;
+}
+
+.radio input {
+    display: none;
+}
+
+.radio input+span {
+    border-width: 0.35em 0 0.35em 0.45em;
+    padding-left: 22px;
+    display: block;
+    position: relative;
+}
+
+.radio input+span:not(:empty) {
+    padding-left: 20px;
+}
+
+.radio input+span:before,
+.radio input+span:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-color: transparent #fff;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.radio input+span:before {
+    transition: background 0.2s ease, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+    transition: background 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+    transition: background 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2), -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+}
+
+.radio input+span:after {
+    -webkit-transform: scale(0.78);
+    transform: scale(0.78);
+    transition: -webkit-transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+    transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+    transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4), -webkit-transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+}
+
+.radio input:checked+span:before {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    font-size: 1.5rem;
+    width: 1rem;
+    border-color: transparent #8cd467;
+    ;
+    border-style: solid;
+    border-width: 0.32em 0 0.32em 0.42em;
+    height: .7rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.radio input:checked+span:after {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.radio:hover input+span:before {
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+}
+
+.radio:hover input+span:after {
+    -webkit-transform: scale(0.74);
+    transform: scale(0.74);
+}
+
+.radio:hover input:checked+span:after {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.catalog-text {
+    margin-top: 5rem;
+}
+
+.cat-title {
+    padding: .5rem 1.5rem;
+}
+
+.arrowWhite {
+    border: solid 2px white;
+    font-size: 1.6rem;
+    width: 1.5rem;
+    border-radius: 2rem;
+    height: 1.4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-card-meat {
+    padding-left: 0.5rem;
+}
+
+.f1_5 {
+    font-size: 1.5rem;
+}
+
+.f1_2 {
+    font-size: 1.2rem;
+}
+
+.dNone {
+    display: none;
+}
+
+.dBlock {
+    display: block;
+}
+
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/DJI_0333.jpg);
+    background-size: cover;
+    background-position: center;
 }

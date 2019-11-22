@@ -1,0 +1,102 @@
+                .flex {
+                    display: flex;
+                }
+                
+                .flex-column {
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .black-low {
+                    background: #000000e3;
+                }
+                
+                .all-black-cont {
+                    justify-content: center;
+                    width: 100%;
+                }
+                
+                .w30 {
+                    width: 35%;
+                }
+                
+                .w50 {
+                    width: 50%;
+                }
+                
+                .w40 {
+                    width: 40%;
+                }
+                
+                .container-two-contact {
+                    flex-direction: column;
+                }
+                
+                body {
+                    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/_B9A9808.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .two-contact {
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                
+                .ft-4-5 {
+                    font-size: 4.5rem;
+                }
+                
+                .l-h1 {
+                    line-height: 1rem;
+                }
+                
+                .l-h3r {
+                    line-height: 3rem;
+                }
+                
+                .form-control,
+                .form-control:focus {
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    color: #ffffff8c !important;
+                    background-color: transparent!important;
+                    background-clip: padding-box;
+                    border: none;
+                    border-bottom: .07rem solid #ffffff70 !important;
+                    border-radius: 0rem !important;
+                    box-shadow: none !important;
+                    border-color: none !important;
+                    outline: 0px !important;
+                }
+                
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                [type=submit] {
+                    width: 16rem;
+                }
+                
+                .btn-white,
+                .form-control:focus {
+                    color: #f8f9fa;
+                    border: solid .07rem;
+                    border-color: #f8f9fa;
+                    background: transparent;
+                    border-radius: .6rem;
+                    padding: 0.2rem 2rem;
+                    box-shadow: none !important;
+                    border-color: none !important;
+                    outline: 0px !important;
+                }
+                
+                .btn-green {
+                    color: #40881a;
+                    background-color: #b5c990;
+                    border-radius: .6rem;
+                    padding: 0.4rem 2rem;
+                    border: none;
+                }
