@@ -76,13 +76,6 @@
     font-size: 14px;
 }
 
-.title {
-    margin: 1.5rem 0 2rem;
-    font-size: 2.2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
  ::-webkit-scrollbar {
     width: 12px;
 }
@@ -204,7 +197,7 @@
     transform: scale(1.04);
     font-size: 1.5rem;
     width: 1rem;
-    border-color: transparent #8cd467;
+    border-color: transparent #fff;
     ;
     border-style: solid;
     border-width: 0.32em 0 0.32em 0.42em;
@@ -212,6 +205,10 @@
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+input[type="radio"]:checked+span {
+    color: #8cd467 !important;
 }
 
 .radio input:checked+span:after {
@@ -239,10 +236,6 @@
 
 .catalog-text {
     margin-top: 5rem;
-}
-
-.cat-title {
-    padding: .5rem 1.5rem;
 }
 
 .arrowWhite {

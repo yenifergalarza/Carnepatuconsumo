@@ -133,7 +133,7 @@ a:hover {
 #menuToggle input:checked~ul {
     transform: none;
     display: block;
-    height: 103vh;
+    height: 101.5vh;
     width: 20rem;
     font-size: 100%;
     background: #000000e3;

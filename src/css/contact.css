@@ -66,8 +66,10 @@
                     border-bottom: .07rem solid #ffffff70 !important;
                     border-radius: 0rem !important;
                     box-shadow: none !important;
-                    border-color: none !important;
                     outline: 0px !important;
+                    border-top: none !important;
+                    border-left: none !important;
+                    border-right: none !important;
                 }
                 
                 form {
