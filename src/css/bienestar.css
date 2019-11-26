@@ -25,3 +25,17 @@ body {
 .sq2 {
     background-image: url("../../assets/grano.png");
 }
+
+.menu-none {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .squares {
+        flex-direction: column;
+    }
+    .square {
+        width: 40rem;
+        height: 40rem;
+    }
+}
