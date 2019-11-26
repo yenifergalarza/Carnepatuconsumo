@@ -5,6 +5,10 @@ body {
     padding-bottom: 0rem;
 }
 
+html {
+    font-size: 4.6vw;
+}
+
 .vh100 {
     background: #00000079;
 }
@@ -113,7 +117,7 @@ body {
 
 @media (max-width: 558px) {
     .square {
-        z-index: 1;
+        z-index: 0;
         width: 40rem;
         height: 40rem;
     }

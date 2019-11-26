@@ -196,11 +196,12 @@ a:hover {
     }
     .border-white-btn {
         width: 26rem;
-        height: 8rem;
-        font-size: 2rem;
+        height: 5rem;
+        font-size: 1.5rem;
         position: relative;
         top: 2rem;
         margin-right: 7rem;
+        margin-top: 2rem;
     }
     .logo {
         margin-top: 3.1rem;
