@@ -97,3 +97,24 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .container-3sq {
+        padding-top: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .square {
+        z-index: 0;
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 558px) {
+    .square {
+        z-index: 1;
+        width: 40rem;
+        height: 40rem;
+    }
+}

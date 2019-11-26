@@ -279,3 +279,13 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 768px) {
+    .example-three nav {
+        border-radius: 0 0 3px 3px;
+        height: 50%;
+    }
+    .example-three .card-meat {
+        width: 80%;
+    }
+}
