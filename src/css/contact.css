@@ -118,4 +118,17 @@
                     .l-h1 {
                         line-height: 1.6rem;
                     }
+                    .l-h3r {
+                        line-height: 4rem;
+                        font-size: 2rem;
+                    }
+                    .ft-4-5 {
+                        font-size: 5.5rem;
+                    }
+                    .btn-white,
+                    .form-control:focus {
+                        font-size: 1.6rem;
+                        color: #f8f9fa;
+                        border: solid 0.3rem;
+                    }
                 }
