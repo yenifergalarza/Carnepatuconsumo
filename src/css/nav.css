@@ -168,6 +168,9 @@ a:hover {
     padding-top: .9rem;
     margin-left: 1.1%;
 }
+.menu-none {
+    display: none;
+}
 
 @media (max-width: 768px) {
     #menuToggle span {
@@ -226,6 +229,3 @@ a:hover {
     }
 }
 
-.menu-none {
-    display: none;
-}
