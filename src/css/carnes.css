@@ -95,7 +95,7 @@
 }
 
 .vw60 {
-    width: 68vw;
+    width: 60vw;
     padding-left: 7rem;
 }
 
@@ -305,10 +305,10 @@ body {
         height: 4.6rem;
     }
     .ftsz-2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .ftsz-3-5 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
     }
     .txt-centered {
         text-align: center;
@@ -336,5 +336,14 @@ body {
         left: .6rem;
         top: 0.7rem;
         position: absolute;
+    }
+    .f1_5 {
+        font-size: 3.5rem;
+    }
+    .f1_2 {
+        font-size: 3.2rem;
+    }
+    .radio input+span:not(:empty) {
+        padding-left: 3rem;
     }
 }
