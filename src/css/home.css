@@ -22,10 +22,11 @@ body {
 }
 
 .container-icons {
-    margin-left: 91rem;
+    margin-left: 89rem;
     display: flex;
-    width: 13rem;
+    width: 16rem;
     justify-content: space-between;
+
 }
 
 .iconH {
@@ -61,16 +62,7 @@ body {
 .flex-between {
     display: flex;
     justify-content: space-between;
-}
-
-@media (max-width: 600px) {
-    .container-icons {
-        margin-left: 70rem;
-        width: 31rem;
-    }
-    .iconH {
-        font-size: 5.5rem;
-    }
+    align-items: center;
 }
 
 .green {
@@ -86,4 +78,13 @@ body {
 
 .cat-title {
     padding: .5rem 1.5rem;
+}
+@media (max-width: 600px) {
+    .container-icons {
+        margin-left: 70rem;
+        width: 37rem;
+    }
+    .iconH {
+        font-size: 5rem;
+    }
 }
