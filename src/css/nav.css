@@ -46,7 +46,7 @@ a:hover {
 
 #menuToggle input:checked~span {
     opacity: 1;
-    transform: rotate(45deg) translate(1px, 10px);
+    transform: rotate(45deg) translate(0px, 8px);
     background: #fff;
     z-index: 2;
 }
@@ -210,18 +210,19 @@ a:hover {
         height: 15rem;
     }
     #menuToggle input:checked~ul {
-        height: 70rem;
+        height: 120rem;
         position: absolute;
         right: -2.9rem;
-        width: 101.8rem;
+        width: 106.8rem;
+        top: -3rem;
     }
     #menu li {
         text-align: center;
-        padding: 2.2rem 2rem;
-        font-size: 3.4rem;
+        padding: 6.2rem 2rem;
+        font-size: 4.4rem;
     }
     #menuToggle input:checked~ul .logo-nav {
-        height: 10rem;
+        height: 20rem;
     }
 }
 
