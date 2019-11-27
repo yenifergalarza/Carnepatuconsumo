@@ -17,10 +17,6 @@ anime({
     opacity: 0,
 
 });
-
-
-
-
 anime({
     targets: '.sq3',
     // direction: 'alternate',
@@ -29,8 +25,6 @@ anime({
     direction: 'alternate',
     easing: 'easeInOutSine',
     opacity: 0,
-
-
 });
 
 //acion sq1 click y amigos
