@@ -103,6 +103,14 @@ html {
 }
 
 @media (max-width: 769px) {
+    .square {
+        z-index: 0;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width:558px) {
     .container-3sq {
         padding-top: 5rem;
         flex-direction: column;
@@ -112,13 +120,5 @@ html {
         z-index: 0;
         width: 30rem;
         height: 30rem;
-    }
-}
-
-@media (max-width: 558px) {
-    .square {
-        z-index: 0;
-        width: 40rem;
-        height: 40rem;
     }
 }

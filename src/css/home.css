@@ -79,13 +79,15 @@ body {
 .cat-title {
     padding: .5rem 1.5rem;
 }
+
 footer{
     position: relative;
     top: 82%;
 }
 @media (max-width: 768px) {
+
     .container-icons {
-        margin-left: 70rem;
+        margin-left: 63rem;
         width: 37rem;
     }
     .iconH {
