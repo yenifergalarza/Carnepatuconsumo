@@ -100,9 +100,7 @@
                 }
                 
                 @media (max-width: 768px) {
-                    html{
-                        font-size: 4.6vw
-                    }
+                
                     .all-black-cont {
                         flex-direction: column;
                         align-items: center;
@@ -162,4 +160,16 @@ main {
 
 .container-two-contact {
     flex-direction: column;
+}
+
+.black-low {
+    background: #000000e3;
+}
+
+.w80-xs {
+    width: 80%;
+}
+
+.w100 {
+    width: 100%;
 }
