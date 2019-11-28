@@ -95,7 +95,7 @@
 }
 
 .vw60 {
-    width: 68vw;
+    width: 60vw;
     padding-left: 7rem;
 }
 
@@ -116,6 +116,7 @@
     display: flex;
     justify-content: center;
     height: 20%;
+    align-items: center;
     background-color: #0000006e;
 }
 
@@ -282,10 +283,72 @@ body {
 
 @media (max-width: 768px) {
     .example-three nav {
+        align-items: center;
         border-radius: 0 0 3px 3px;
-        height: 50%;
+        height: 85%;
+        flex-direction: column;
     }
     .example-three .card-meat {
         width: 80%;
+    }
+    .l40 {
+        width: 25rem;
+        padding-top: 6rem;
+    }
+    .logo {
+        visibility: hidden;
+    }
+    .arrowWhite {
+        border: solid 1px white;
+        font-size: 4.6rem;
+        width: 4.6rem;
+        border-radius: 3rem;
+        height: 4.6rem;
+    }
+    .ftsz-2 {
+        font-size: 3rem;
+    }
+    .ftsz-3-5 {
+        font-size: 4.5rem;
+    }
+    .txt-centered {
+        text-align: center;
+    }
+    .radio input:checked+span:before {
+        -webkit-transform: scale(1.04);
+        transform: scale(1.04);
+        font-size: 1.5rem;
+        width: 1rem;
+        border-color: transparent #fff;
+        border-style: solid;
+        border-width: 0.52em 0 0.52em 0.72em;
+        height: 1.7rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .radio input+span:before,
+    .radio input+span:after {
+        content: '';
+        width: 0;
+        height: 0;
+        display: block;
+        border-color: transparent #fff;
+        left: .6rem;
+        top: 0.7rem;
+        position: absolute;
+    }
+    .f1_5 {
+        font-size: 3.5rem;
+    }
+    .f1_2 {
+        font-size: 3.2rem;
+    }
+    .radio input+span:not(:empty) {
+        padding-left: 3rem;
+    }
+    .markets3 {
+        width: 7rem;
+        height: 7rem;
     }
 }
