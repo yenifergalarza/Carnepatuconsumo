@@ -4,7 +4,7 @@ body {
 
 .vw40 {
     width: 31.5vw;
-    height: 100vh;
+    height: 98.7vh;
     position: relative;
     top: -11vh;
     background: linear-gradient( rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.42));
@@ -31,14 +31,8 @@ body {
 }
 
 .arrowWhite {
-    border: solid 2px white;
-    font-size: 1.6rem;
     width: 1.5rem;
-    border-radius: 2rem;
     height: 1.5rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
 }
 
 .al-ite {
@@ -46,15 +40,8 @@ body {
 }
 
 .arrowWhite1 {
-    border: solid 2px white;
-    font-size: 1rem;
     width: 1.9rem;
-    border-radius: 2rem;
     height: 1.4rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .center {
