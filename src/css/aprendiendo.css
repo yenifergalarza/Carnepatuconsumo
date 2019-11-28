@@ -9,6 +9,12 @@ html {
     font-size: .98vw;
 }
 
+.centered-aprendiendo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .vh100 {
     background: #00000079;
 }
@@ -77,29 +83,24 @@ html {
     padding-top: 5rem;
 }
 
-.sq1 {
-    background-image: url(../../assets/bienestar-animal2.png);
-    background-size: cover;
-    background-position: center;
-}
 
 .sq2 {
-    background-image: url(../../assets/Carne.png);
+    /* background-image: url(../../assets/Carne.png);
     background-size: cover;
-    background-position: center;
+    background-position: center; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 .sq3 {
     /* background-image: url(../../assets/Pasto.png); */
-    background-color: #050;
+    /* background-color: #050;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 @media (max-width: 769px) {
