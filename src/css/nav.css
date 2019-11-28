@@ -9,10 +9,13 @@ a:hover {
     transition: color 0.3s ease;
 }
 
+
 /* @font-face {
     font-family: 'Gotham-Thin';
     src: local('FUENTES/Gotham-Thin.otf'), url('FUENTES/Gotham-Thin.otf') format('opentype');
 } */
+
+
 /*
  * Just a quick hamburger
  */
@@ -229,3 +232,4 @@ a:hover {
     }
 }
 
+@media (max-width: 768px) {}
