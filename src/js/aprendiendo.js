@@ -57,7 +57,7 @@ enterInsq1.addEventListener('click', function() {
     sq1click.play();
     sq1clickinsq2.play();
     sq1clickinsq3.play();
-    const pagina = "./bienestarAnimal.html"
+    const pagina = "./sello.html"
 
     function redireccionar() {
         location.href = pagina

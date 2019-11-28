@@ -153,13 +153,13 @@ main {
 }
 
 .flex-column {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .container-two-contact {
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .black-low {
@@ -172,4 +172,125 @@ main {
 
 .w100 {
     width: 100%;
+}
+
+.h80 {
+    height: 80%;
+}
+
+.h50 {
+    height: 50%;
+}
+
+.two-contact {
+    height: 40%;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+.ft-4-5-xs {
+    font-size: 4.5rem;
+}
+
+.ft-2-xs {
+    font-size: 2rem;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-white {
+    color: #f8f9fa;
+    border: solid .2rem;
+    border-color: #f8f9fa;
+    background: transparent;
+    border-radius: .6rem;
+    padding: 0.2rem 2rem;
+    box-shadow: none !important;
+    border-color: none !important;
+    outline: 0px !important;
+    width: 17rem;
+    font-size: 2rem;
+}
+
+.form-control:focus {}
+
+.form-control,
+.form-control:focus {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #ffffff8d !important;
+    background-color: transparent!important;
+    background-clip: padding-box;
+    border: none;
+    border-bottom: .2rem solid #fffffd !important;
+    border-radius: 0rem !important;
+    box-shadow: none !important;
+    outline: 0px !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.btn-green {
+    color: #40881a;
+    background-color: #b5c990;
+    border-radius: .6rem;
+    padding: 0.4rem 2rem;
+    border: none;
+    width: 17rem;
+}
+
+.pt-5-x {
+    padding-top: 3rem;
+}
+
+.p-5-xs {
+    padding: 5rem;
+}
+
+@media (min-width: 768px) {
+    .ft-4-5-xs {
+        font-size: 2rem;
+    }
+    .ft-2-xs {
+        font-size: 1rem;
+    }
+    .w80-xs {
+        width: 40%;
+    }
+    .all-black-cont {
+        flex-direction: row !important;
+    }
+    .btn-white {
+        font-size: 1rem;
+        border-width: 0.1rem;
+    }
+    .l-h1 {
+        line-height: 1rem;
+    }
+    .l-h3r {
+        line-height: 3rem;
+    }
+    .h80 {
+        height: auto;
+    }
+    .pt-5-xs {
+        padding-top: 1rem;
+    }
+    .form-control,
+    .form-control:focus {
+        font-size: 1rem;
+        border-bottom: .1rem solid #fffffd !important;
+    }
+    .p-5-xs {
+        padding: 2rem;
+    }
+    .vh80 {
+        height: auto;
+    }
 }
