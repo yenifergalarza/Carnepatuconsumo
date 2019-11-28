@@ -78,12 +78,14 @@ main {
 .cat-title {
     padding: .5rem 1.5rem;
 }
+
 footer{
     position: absolute;
     bottom: 3%;
     right: 2%;
 }
 @media (max-width: 768px) {
+
     .container-icons {
         margin-left: 63rem;
         width: 37rem;
