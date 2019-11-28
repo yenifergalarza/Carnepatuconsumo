@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -7,10 +8,14 @@ html {
     font-size: 0.94vw;
 }
 
-body {
+main {
     background-image: url(../../assets/fondo-home.png);
     background-size: cover;
     background-position: center;
+}
+@font-face {
+    font-family: 'Gotham-Medium_O';
+    src: local('FUENTES/Gotham-Medium_O.otf'), url('FUENTES/Gotham-Medium_O.otf') format('opentype');
 }
 
 .vh100 {
@@ -22,7 +27,6 @@ body {
 }
 
 .container-icons {
-    margin-left: 89rem;
     display: flex;
     width: 15rem;
     justify-content: space-between;
@@ -43,7 +47,7 @@ body {
     border-radius: 1.5rem;
     font-size: 1.2rem;
     height: 60%;
-    width: 15rem;
+    width: 19rem;
 }
 
 .menu-brg {
@@ -52,11 +56,6 @@ body {
 
 .logo {
     height: 100%;
-}
-
-.p-t-l-1 {
-    padding-top: 1.1rem;
-    padding-left: 1.1rem;
 }
 
 .flex-between {
@@ -81,8 +80,9 @@ body {
 }
 
 footer{
-    position: relative;
-    top: 82%;
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
 }
 @media (max-width: 768px) {
 
