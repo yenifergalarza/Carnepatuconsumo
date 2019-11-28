@@ -95,17 +95,20 @@
 }
 
 .vw60 {
-    width: 60vw;
+    width: 68vw;
+    height: 90%;
     padding-left: 7rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .vw40 {
     width: 31.5vw;
-    height: 100vh;
+    height: 103%;
     position: relative;
-    top: -11vh;
     background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A2037.jpg);
     background-position-x: center;
+    background-size: cover;
 }
 
 .carnePrincipalCard {
@@ -164,7 +167,7 @@
 }
 
 .radio input+span:not(:empty) {
-    padding-left: 20px;
+    padding-left: 1.5rem;
 }
 
 .radio input+span:before,
@@ -175,7 +178,7 @@
     display: block;
     border-color: transparent #fff;
     left: 0;
-    top: 0;
+    top: 0.27rem;
     position: absolute;
 }
 
@@ -281,6 +284,16 @@ body {
     background-position: center;
 }
 
+.nav-sec {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.vh80 {
+    height: 97vh;
+}
+
 @media (max-width: 768px) {
     .example-three nav {
         align-items: center;
@@ -335,7 +348,7 @@ body {
         display: block;
         border-color: transparent #fff;
         left: .6rem;
-        top: 0.7rem;
+        top: 1.3rem;
         position: absolute;
     }
     .f1_5 {

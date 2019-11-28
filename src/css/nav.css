@@ -9,10 +9,13 @@ a:hover {
     transition: color 0.3s ease;
 }
 
+
 /* @font-face {
     font-family: 'Gotham-Thin';
     src: local('FUENTES/Gotham-Thin.otf'), url('FUENTES/Gotham-Thin.otf') format('opentype');
 } */
+
+
 /*
  * Just a quick hamburger
  */
@@ -121,7 +124,7 @@ a:hover {
 #menu li {
     /* font-family: 'Gotham-Medium_O'; */
     text-align: right;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     display: none;
 }
 
@@ -155,7 +158,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 8rem;
+    height: 6rem;
     margin-bottom: 2rem;
 }
 
@@ -229,3 +232,4 @@ a:hover {
     }
 }
 
+@media (max-width: 768px) {}
