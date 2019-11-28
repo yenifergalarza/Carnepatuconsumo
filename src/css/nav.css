@@ -124,7 +124,7 @@ a:hover {
 #menu li {
     /* font-family: 'Gotham-Medium_O'; */
     text-align: right;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 3rem;
     display: none;
 }
 
@@ -149,7 +149,7 @@ a:hover {
     /* height: 101.5vh; */
     right: -5rem;
     width: 33rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: #000000e3;
 }
 
