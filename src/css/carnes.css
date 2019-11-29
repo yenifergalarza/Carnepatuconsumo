@@ -299,10 +299,22 @@ body {
 }
 
 .contmenu-btn {
-    right: 0rem;
+    right: 1rem;
+}
+
+#menuToggle input:checked~ul {
+    right: -1rem;
+    top: 4.5rem;
 }
 
 @media (max-width: 768px) {
+    #menuToggle input:checked~ul {
+        height: 120rem;
+        position: absolute;
+        right: -3.1rem;
+        width: 104.8rem;
+        top: -3rem;
+    }
     .centered-carnes {
         top: 60%;
         transform: translateY(-42%);
