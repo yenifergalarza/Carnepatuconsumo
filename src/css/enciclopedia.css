@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     font-size: .98vw;
-    
 }
 
 main {
@@ -15,9 +15,10 @@ main {
     background-position: center;
 }
 
-.vh100{
+.vh100 {
     height: 100vh;
 }
+
 .vw40 {
     width: 40%;
     height: 100vh;
@@ -66,7 +67,7 @@ main {
 }
 
 .container-white {
-    margin-top: 10vh;
+    margin-top: 2rem;
 }
 
 .cat-title {
@@ -108,5 +109,15 @@ p {
     width: 50%;
     position: relative;
     top: 50%;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
+}
+
+#menuToggle input:checked~ul {
+    right: -1.97rem;
+}
+
+@media (max-width: 768px) {
+    #menuToggle input:checked~ul {
+        right: -3.3rem;
+    }
 }

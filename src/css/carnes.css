@@ -303,11 +303,11 @@ body {
 }
 
 #menuToggle input:checked~ul {
-    right: -2.5rem;
-    top: 3.1rem;
+    right: -2.4rem;
+    top: 3rem;
 }
 
-@media (max-width: 768px) {
+#menuTo @media (max-width: 768px) {
     #menuToggle input:checked~ul {
         height: 120rem;
         position: absolute;
