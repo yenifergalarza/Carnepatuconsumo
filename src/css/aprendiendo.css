@@ -92,7 +92,10 @@ main {
 .container-3sq {
     padding-top: 5rem;
 }
-
+#menuToggle input:checked~ul {
+    height: 100vh;
+    right: -2.48rem;
+    top: 3rem;}
 /* .sq1{} */
 /* .sq2 { */
     /* background-image: url(../../assets/Carne.png);
