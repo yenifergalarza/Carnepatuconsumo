@@ -139,6 +139,9 @@ main {
         width: 20rem;
         height: 20rem;
     }
+    #menuToggle input:checked~ul {
+        right: -3.9rem;
+    }
 }
 
 @media (max-width:558px) {
