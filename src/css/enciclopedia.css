@@ -1,12 +1,29 @@
-body {
-    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../../assets/_B9A0994.jpg);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: .98vw;
+    
 }
 
+main {
+    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../../assets/_B9A0994.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vh100{
+    height: 100vh;
+}
 .vw40 {
-    width: 31.5vw;
-    height: 98.7vh;
+    width: 40%;
+    height: 100vh;
     position: relative;
-    top: -11vh;
+    top: 50%;
+    /* transform: translateY(0%); */
     background: linear-gradient( rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.42));
     background-position-x: center;
     z-index: 1;
@@ -83,10 +100,13 @@ p {
     justify-content: center;
 }
 
-.vh80 {
-    display: flex;
+.w-80 {
+    width: 80%;
 }
 
-.vaca {
+.vaca-img {
     width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(50%,-50%);
 }

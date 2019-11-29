@@ -1,13 +1,23 @@
-body {
-    background-image: url(../../assets/fondo2.png);
-    background-size: cover;
-    background-position: inherit;
-    padding-bottom: 0rem;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
 html {
     font-size: .98vw;
+    
 }
+
+main {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/fondo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    /* padding-bottom: 0rem; */
+}
+
+
 
 .centered-aprendiendo{
     position: absolute;
@@ -16,7 +26,7 @@ html {
     transform: translate(-50%,-50%);
 }
 .vh100 {
-    background: #00000079;
+    height: 100vh;
 }
 
 .square {
@@ -32,7 +42,7 @@ html {
 }
 
 .square:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: transform 0.9s cubic-bezier(0.7, 0.7, 0.5, 1.0);
     transition-timing-function: ease;
     z-index: 10;
@@ -50,7 +60,7 @@ html {
     padding-top: 0.5rem;
 }
 
-.sq1-text {}
+/* .sq1-text {} */
 
 .sq1:hover {
     transform: translateY(0px) scale(1.1) !important;
@@ -71,7 +81,7 @@ html {
     padding: .5rem !important;
 }
 
-.sq3-text {}
+/* .sq3-text {} */
 
 .each-sq {
     padding: 1rem;
@@ -83,17 +93,17 @@ html {
     padding-top: 5rem;
 }
 
-
-.sq2 {
+/* .sq1{} */
+/* .sq2 { */
     /* background-image: url(../../assets/Carne.png);
     background-size: cover;
     background-position: center; 
     display: flex;
     align-items: center;
     justify-content: center;*/
-}
+/* } */
 
-.sq3 {
+/* .sq3 { */
     /* background-image: url(../../assets/Pasto.png); */
     /* background-color: #050;
     background-size: cover;
@@ -101,7 +111,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center; */
-}
+/* } */
 
 @media (max-width: 769px) {
     .square {
