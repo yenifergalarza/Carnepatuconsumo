@@ -136,13 +136,23 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+.vh100 {
+    height: 100vh;
+}
+html {
+    font-size: 0.94vw;
+}
 
 main {
     background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/_B9A9808.jpg);
     background-size: cover;
     background-position: center;
 }
-
+.centered-contacto{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
