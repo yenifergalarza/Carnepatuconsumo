@@ -1,6 +1,7 @@
 /* .vh20 {
     height: 11vh;
 } */
+
 .border-white-btn {
     position: relative;
     left: -3rem;
@@ -13,6 +14,7 @@
     height: 60%;
     width: 19rem;
 }
+
 .white-font {
     color: white;
 }
@@ -24,23 +26,28 @@ a:hover {
     transition: color 0.3s ease;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 3%;
     right: 2%;
 }
+
 .iconH {
     font-size: 2rem;
 }
+
+
 /* @font-face {
     font-family: 'Gotham-Thin';
     src: local('FUENTES/Gotham-Thin.otf'), url('FUENTES/Gotham-Thin.otf') format('opentype');
 } */
+
 .container-icons {
     display: flex;
     width: 15rem;
     justify-content: space-between;
 }
+
 
 /*
  * Just a quick hamburger
@@ -174,7 +181,7 @@ footer{
     /* z-index: 100; */
     display: block;
     /* height: 101.5vh; */
-    right: -3.48rem;
+    right: -3.39rem;
     width: 33rem;
     font-size: 1.5rem;
     background: #000000e3;
