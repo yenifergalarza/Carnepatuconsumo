@@ -1,11 +1,26 @@
-body {
-    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../../assets/_B9A0994.jpg);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: .98vw;
+    
 }
 
+main {
+    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../../assets/_B9A0994.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.vh100{
+    height: 100vh;
+}
 .vw40 {
     width: 40%;
-    height: 99.7vh;
+    height: 100vh;
     position: relative;
     top: 50%;
     /* transform: translateY(0%); */
