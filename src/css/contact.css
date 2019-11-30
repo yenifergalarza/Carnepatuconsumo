@@ -9,6 +9,10 @@
     height: 100vh;
 }
 
+.green {
+    color: #8cd467;
+}
+
 html {
     font-size: 0.94vw;
 }

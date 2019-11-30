@@ -294,6 +294,10 @@ body {
     align-items: center;
 }
 
+.green {
+    color: #8cd467;
+}
+
 .vh80 {
     height: 97vh;
 }

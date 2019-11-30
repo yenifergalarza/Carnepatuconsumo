@@ -120,4 +120,48 @@ p {
     #menuToggle input:checked~ul {
         right: -3.3rem;
     }
+    .center {
+        align-items: center;
+        justify-content: center;
+    }
+    .column-d {
+        flex-direction: column;
+    }
+    .vw40 {
+        width: 100%;
+        height: auto;
+        position: inherit;
+        top: 0;
+        z-index: auto;
+    }
+    .w-80 {
+        width: 100%;
+        padding: 4rem;
+    }
+    .vaca-img {
+        width: 50%;
+        position: inherit;
+        top: 00%;
+        transform: translate(50%, 0%);
+    }
+    .container-white {
+        margin-top: 8rem;
+    }
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .sz-2 {
+        font-size: 2rem;
+    }
+    .arrowWhite {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .flex-end {
+        align-items: center
+    }
+    .arrowWhite1 {
+        display: none;
+    }
 }

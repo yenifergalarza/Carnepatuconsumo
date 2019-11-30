@@ -142,6 +142,9 @@ main {
     #menuToggle input:checked~ul {
         right: -3.9rem;
     }
+    .cont-sqs {
+        padding-top: 0rem;
+    }
 }
 
 @media (max-width:558px) {
