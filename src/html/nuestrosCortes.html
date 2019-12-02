@@ -8,9 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="../css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/carnes.css">
+    <script src="../js/jquery.js"></script>
 </head>
 
 <!-- WARNING BRUTALLLL CAOSAAAAAAAAAAAAAA ARREGLAR // MAS QUE ARREGLAR COPIAR ESTRUCTURA DE LAS OTRAS CARNES 
@@ -19,6 +19,19 @@
 
 <body>
     <main class="vh100 ">
+        <header>
+            <div class="container-fluid">
+                <a href="#" class="link-logo"><img class="logo-m" src="../../assets/m.png"></a>
+                <nav>
+                    <a href="./home.html" class="link-logo mb-4"><img class="logo-mafrox" src="../../assets/logo-mafrox.svg"></a>
+                    <a href="./nosotros.html">NOSOTROS</a>
+                    <a href="./aprendiendo.html">APRENDIENDO</a>
+                    <a href="./nuestrosCortes.html">NUESTROS CORTES</a>
+                    <a href="./contacto.html">CONTACTO</a>
+                </nav>
+                <a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+            </div>
+        </header>
         <section class=" vh80">
             <div class="vw40 p-5">
                 <img src="../../assets/logo-mafrox.svg" class="w40 l40" alt="">
@@ -53,10 +66,7 @@
             </div>
             <div class="example-three vw60 ">
                 <div class="nav-sec">
-
-
-                    <header class="p-4 position-absolute">
-                        <!-- <img src="../../assets/logo-mafrox.svg" class="logo " alt=""> -->
+                    <!-- <header class="p-4 position-absolute">
                         <div class="contmenu-btn p-4 ">
                             <button class="white-font border-white-btn">COMPRA AHORA</button>
                             <nav role="navigation" id="men1">
@@ -85,7 +95,7 @@
                                 </div>
                             </nav>
                         </div>
-                    </header>
+                    </header> -->
                 </div>
                 <div class="centered-carnes dNone" id="plusItem"></div>
                 <div class="centered-carnes" id="parrilleras">
@@ -760,21 +770,19 @@
                         </div>
                     </nav>
                 </div>
-
-
             </div>
-
+        </div>
+        <footer>
+            <div class="container-icons">
+                <i class="fab fa-instagram iconH white-font mr-4"></i>
+                <i class="fab fa-youtube  iconH white-font mr-4"></i>
+                <i class="fab fa-facebook-f iconH white-font mr-4"></i>
             </div>
-            <footer>
-                <div class="container-icons col align-self-end">
-                    <i class="fab fa-instagram iconH white-font"></i>
-                    <i class="fab fa-youtube  iconH white-font"></i>
-                    <i class="fab fa-facebook-f iconH white-font"></i>
-                </div>
-            </footer>
+        </footer>
         </section>
 
     </main>
+    <script src="../js/nav.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
