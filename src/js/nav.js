@@ -1,6 +1,9 @@
-// const menuclick = document.getElementById("men1");
-// const liToggle = document.getElementById("menu");
+jQuery(document).ready(function(){
 
-// menuclick.addEventListener("click", () => {
-//     liToggle.classList.toggle("menu-none");
-// });
+	jQuery(".hamb").click(function(e){
+	 	e.preventDefault();
+	 	jQuery("header nav").toggleClass("abrir");
+	 	jQuery(".hamb i").toggleClass("fa-times");
+	});
+
+});

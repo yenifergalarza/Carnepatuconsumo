@@ -35,9 +35,7 @@ main {
     width: 3rem;
 }
 
-.logo {
-    height: 100%;
-}
+
 
 .flex-between {
     display: flex;
@@ -54,14 +52,4 @@ main {
 
 .cat-title {
     padding: .5rem 1.5rem;
-}
-
-@media (max-width: 768px) {
-    .container-icons {
-        margin-left: 63rem;
-        width: 37rem;
-    }
-    .iconH {
-        font-size: 5rem;
-    }
 }
