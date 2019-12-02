@@ -183,4 +183,7 @@ main {
     .vh80 {
         height: auto;
     }
+    #menuToggle input:checked~ul {
+        right: -3.15rem;
+    }
 }
