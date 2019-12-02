@@ -66,7 +66,7 @@ const funcOfMeat3 = () => {
     divPlusItemContainer.classList.add("dNone");
 }
 op3.addEventListener("click", () => {
-
+    funcOfMeat3();
 });
 
 op4.addEventListener("click", () => {
