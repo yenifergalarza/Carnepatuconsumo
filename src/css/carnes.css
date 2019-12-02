@@ -1,3 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: .98vw;
+}
+main {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/DJI_0333.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vh100{
+    height: 100vh;
+}
+
+.vw40 {
+    width: 30%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A2037.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+.vw60 {
+    width: 70%;
+    height: 100vh;
+    /* padding-left: 7rem; */
+    display: flex;
+    flex-direction: column;
+}
+.catalog-text {
+    font-size: 1.5rem;
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%)
+}
+.title{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.cat-title{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
 .scroll {
     display: flex;
     flex-wrap: nowrap;
@@ -48,7 +96,7 @@
 
 .centered-carnes {
     position: relative;
-    top: 27rem;
+    top: 50%;
     transform: translateY(-50%);
 }
 
@@ -73,9 +121,7 @@
     border-right: 1px solid rgba(114, 124, 135, 0.2);
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 .logo1,
 .card-meat {
@@ -96,26 +142,11 @@
     background-color: yellowgreen;
 }
 
-.vh80 {
+/* .vh80 {
     display: flex;
-}
+} */
 
-.vw60 {
-    width: 68vw;
-    height: 90%;
-    padding-left: 7rem;
-    display: flex;
-    flex-direction: column;
-}
 
-.vw40 {
-    width: 44%;
-    height: 103%;
-    position: relative;
-    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A2037.jpg);
-    background-position-x: center;
-    background-size: cover;
-}
 
 .carnePrincipalCard {
     width: 80%;
@@ -248,9 +279,7 @@ input[type="radio"]:checked+span {
     transform: scale(0.4);
 }
 
-.catalog-text {
-    margin-top: 5rem;
-}
+
 
 .arrowWhite {
     width: 1.5rem;
@@ -282,11 +311,6 @@ input[type="radio"]:checked+span {
     display: block;
 }
 
-body {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/DJI_0333.jpg);
-    background-size: cover;
-    background-position: center;
-}
 
 .nav-sec {
     display: flex;
@@ -298,9 +322,9 @@ body {
     color: #8cd467;
 }
 
-.vh80 {
+/* .vh80 {
     height: 97vh;
-}
+} */
 
 .contmenu-btn {
     right: 1rem;
