@@ -75,6 +75,10 @@ p {
     margin-bottom: .8rem !important;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .title,
 title:hover,
 title:active {

@@ -27,3 +27,7 @@ main {
 .vw40 {
     background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62))
 }
+
+.example-three .card-meat {
+    width: auto;
+}
