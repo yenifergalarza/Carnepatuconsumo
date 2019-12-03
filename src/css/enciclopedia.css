@@ -29,7 +29,9 @@ main {
     background-position-x: center;
     z-index: 1;
 }
-
+.flex-end{
+    justify-content: flex-end
+}
 .logo {
     z-index: 20;
 }
