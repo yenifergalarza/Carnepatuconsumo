@@ -66,10 +66,11 @@ const funcOfMeat3 = () => {
     divPlusItemContainer.classList.add("dNone");
 }
 op3.addEventListener("click", () => {
-
+    funcOfMeat3();
 });
 
-op4.addEventListener("click", () => {
+
+const funcOfMeat4 = () => {
     especiales.classList.add("dBlock");
     parrilleras.classList.remove("dBlock");
     sancochados.classList.remove("dBlock");
@@ -81,9 +82,12 @@ op4.addEventListener("click", () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
+}
+op4.addEventListener("click", () => {
+    funcOfMeat4();
 });
 
-op5.addEventListener("click", () => {
+const funcOfMeat5 = () => {
     enlatados.classList.add("dBlock");
     parrilleras.classList.remove("dBlock");
     sancochados.classList.remove("dBlock");
@@ -96,6 +100,9 @@ op5.addEventListener("click", () => {
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
 
+}
+op5.addEventListener("click", () => {
+    funcOfMeat5();
 });
 
 cp1.addEventListener('click', () => {

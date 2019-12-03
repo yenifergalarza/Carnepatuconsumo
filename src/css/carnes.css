@@ -1,16 +1,18 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     font-size: .98vw;
 }
+
 main {
     background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/DJI_0333.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.vh100{
+.vh100 {
     height: 100vh;
 }
 
@@ -30,18 +32,21 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .catalog-text {
     font-size: 1.5rem;
     position: relative;
     top: 35%;
     transform: translateY(-50%)
 }
-.title{
+
+.title {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     margin-left: 2rem;
 }
-.cat-title{
+
+.cat-title {
     font-size: 2rem;
     margin-bottom: 3rem;
 }
@@ -121,8 +126,6 @@ main {
     border-right: 1px solid rgba(114, 124, 135, 0.2);
 }
 
-
-
 .logo1,
 .card-meat {
     font-size: 14px;
@@ -142,11 +145,10 @@ main {
     background-color: yellowgreen;
 }
 
+
 /* .vh80 {
     display: flex;
 } */
-
-
 
 .carnePrincipalCard {
     width: 80%;
@@ -279,8 +281,6 @@ input[type="radio"]:checked+span {
     transform: scale(0.4);
 }
 
-
-
 .arrowWhite {
     width: 1.5rem;
     height: 1.4rem;
@@ -311,7 +311,6 @@ input[type="radio"]:checked+span {
     display: block;
 }
 
-
 .nav-sec {
     display: flex;
     justify-content: flex-end;
@@ -321,6 +320,7 @@ input[type="radio"]:checked+span {
 .green {
     color: #8cd467;
 }
+
 
 /* .vh80 {
     height: 97vh;
@@ -428,7 +428,7 @@ input[type="radio"]:checked+span {
 
 @media (max-width: 508px) {
     .centered-carnes {
-        top: 60%;
+        top: 55%;
         transform: translateY(-53%);
         height: 92%;
     }

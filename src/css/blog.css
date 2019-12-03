@@ -1,16 +1,25 @@
 body {
     background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/_B9A0774.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 
 .container {
     display: flex;
-    overflow-x: auto;
+    flex-wrap: nowrap;
+    overflow: auto;
 }
 
 .container .card-blog {
     margin-right: 15px;
 }
 
-.container::-webkit-scrollbar {
-    display: none;
+.vh100 {
+    height: 100vh;
+}
+
+.flex-center-xd {
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
