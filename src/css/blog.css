@@ -29,5 +29,39 @@ main {
 }
 
 .example-three .card-meat {
-    width: auto;
+    width: 25rem;
+    margin-right: 0rem !important;
+}
+
+.flex-two {
+    margin-right: 1.5rem;
+}
+
+.h80 {
+    height: 16rem;
+}
+
+.example-three nav {
+    border-radius: 0 0 3px 3px;
+    padding-top: 3rem;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.arrowWhite1 {
+    margin-bottom: 3rem;
+}
+
+p,
+h1 {
+    color: white;
+}
+
+.blog0img {
+    position: relative;
+    left: -3rem;
+    width: 30.603rem;
+    border-bottom: 4px solid green;
 }
