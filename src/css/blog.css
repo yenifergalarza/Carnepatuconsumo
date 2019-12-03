@@ -2,12 +2,13 @@ main {
     background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/_B9A0774.jpg);
     background-size: cover;
     height: 100vh;
+    width: 130%;
 }
 
 .container {
     display: flex;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .container .card-blog {
@@ -29,7 +30,7 @@ main {
 }
 
 .example-three .card-meat {
-    width: 25rem;
+    width: 20rem;
     margin-right: 0rem !important;
 }
 
@@ -38,7 +39,7 @@ main {
 }
 
 .h80 {
-    height: 16rem;
+    height: auto;
 }
 
 .example-three nav {
@@ -50,8 +51,8 @@ main {
     width: 100%;
 }
 
-.arrowWhite1 {
-    margin-bottom: 3rem;
+.title {
+    margin-bottom: 0rem;
 }
 
 p,
@@ -61,7 +62,69 @@ h1 {
 
 .blog0img {
     position: relative;
-    left: -3rem;
+    left: -4.5rem;
     width: 30.603rem;
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid #b1c280;
+}
+
+.blogs {
+    width: 100%;
+    height: 7rem;
+}
+
+.f1_2 {
+    font-size: .9rem;
+    line-height: 1.2;
+    margin-bottom: 0rem;
+}
+
+.arrowWhite1 {
+    width: 2rem;
+}
+
+.arrowWhite2 {
+    width: 1.2rem;
+    height: 1.1rem;
+}
+
+.f1_5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.f2 {
+    line-height: 1.5;
+}
+
+.catalog-text {
+    top: 50%;
+}
+
+.cat-title {
+    margin-bottom: 0rem;
+}
+
+.vw40 {
+    width: 23.2%;
+}
+
+
+/* 
+{
+    transform: translateX(-31rem);
+} 
+    transform: translateX(-17rem);
+} {
+    transform: translateX(-17rem);
+}
+*/
+
+footer {
+    right: -18%;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none !important;
 }

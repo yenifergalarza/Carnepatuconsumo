@@ -50,6 +50,7 @@ main {
     font-size: 2rem;
     margin-bottom: 3rem;
 }
+
 .centered-carnes {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -57,10 +58,11 @@ main {
     top: 50%;
     transform: translateY(-50%);
 }
+
 .scroll {
     display: flex;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
@@ -142,7 +144,7 @@ main {
 
  ::-webkit-scrollbar-thumb {
     border-radius: 2%;
-    background-color: yellowgreen;
+    background-color: #b1c280;
 }
 
 
@@ -255,7 +257,7 @@ main {
 }
 
 input[type="radio"]:checked+span {
-    color: #8cd467 !important;
+    color: #b1c280 !important;
 }
 
 .radio input:checked+span:after {
@@ -318,7 +320,7 @@ input[type="radio"]:checked+span {
 }
 
 .green {
-    color: #8cd467;
+    color: #b1c280;
 }
 
 
