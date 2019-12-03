@@ -7,7 +7,16 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
+.center-title{
+    display: flex;
+    justify-content: center;
+}
+.color-green{
+    color: #B1C280
+}
+.atras{
+    width: 2rem;
+}
 @media (max-width: 768px) {
     #menuToggle input:checked~ul {
         right: -5.29rem;
