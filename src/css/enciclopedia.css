@@ -29,9 +29,11 @@ main {
     background-position-x: center;
     z-index: 1;
 }
-.flex-end{
+
+.flex-end {
     justify-content: flex-end
 }
+
 .logo {
     z-index: 20;
 }
@@ -46,7 +48,6 @@ main {
     border: white 1px solid;
     font-size: 1rem;
 }
-
 
 .arrowWhite {
     width: 1.5rem;
@@ -74,9 +75,12 @@ p {
     margin-bottom: .8rem !important;
 }
 
-.title {
+.title,
+title:hover,
+title:active {
     font-size: 1.8rem;
-    color: #B1C280
+    color: #B1C280;
+    text-decoration: none;
 }
 
 .line-h {
@@ -114,10 +118,10 @@ p {
 }
 
 @media (max-width: 768px) {
-    .title{
+    .title {
         justify-content: center
     }
-    .line-h{
+    .line-h {
         width: 60%;
     }
     #menuToggle input:checked~ul {
@@ -148,9 +152,8 @@ p {
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
-    
     p {
         font-size: 1.5rem;
         text-align: center;
@@ -166,5 +169,4 @@ p {
         display: flex;
         justify-content: center
     }
-
 }
