@@ -29,7 +29,9 @@ main {
     background-position-x: center;
     z-index: 1;
 }
-
+.flex-end{
+    justify-content: flex-end
+}
 .logo {
     z-index: 20;
 }
@@ -45,10 +47,6 @@ main {
     font-size: 1rem;
 }
 
-.flex-end {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .arrowWhite {
     width: 1.5rem;
@@ -66,10 +64,6 @@ main {
 
 .center {
     align-items: center;
-}
-
-.container-white {
-    margin-top: 2rem;
 }
 
 .cat-title {
@@ -119,6 +113,12 @@ p {
 }
 
 @media (max-width: 768px) {
+    .title{
+        justify-content: center
+    }
+    .line-h{
+        width: 60%;
+    }
     #menuToggle input:checked~ul {
         right: -3.3rem;
     }
@@ -128,10 +128,11 @@ p {
     }
     .column-d {
         flex-direction: column;
+        height: 100%;
     }
     .vw40 {
         width: 100%;
-        height: auto;
+        height: 40%;
         position: inherit;
         top: 0;
         z-index: auto;
@@ -139,16 +140,16 @@ p {
     .w-80 {
         width: 100%;
         padding: 4rem;
+        height: 60%;
     }
     .vaca-img {
         width: 50%;
-        position: inherit;
-        top: 00%;
-        transform: translate(50%, 0%);
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
-    .container-white {
-        margin-top: 8rem;
-    }
+    
     p {
         font-size: 1.5rem;
         text-align: center;
@@ -161,9 +162,8 @@ p {
         height: 2.5rem;
     }
     .flex-end {
-        align-items: center
+        display: flex;
+        justify-content: center
     }
-    .arrowWhite1 {
-        display: none;
-    }
+
 }
