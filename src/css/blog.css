@@ -1,4 +1,4 @@
-body {
+main {
     background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/_B9A0774.jpg);
     background-size: cover;
     height: 100vh;
@@ -22,4 +22,8 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+.vw40 {
+    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62))
 }
