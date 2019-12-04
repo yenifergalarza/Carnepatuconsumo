@@ -33,11 +33,18 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.w-15rem{
+    width: 15rem;
+}
 .color-green {
     color: #B1C280
 }
-
+p{
+    color: #fff
+}
+.border-all{
+    border: 1px #fff solid;
+}
 .square {
     width: 15rem;
     background-size: cover;
