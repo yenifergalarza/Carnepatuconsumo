@@ -90,7 +90,7 @@ const pasto =document.getElementById("pasto");
 const grano =document.getElementById("grano");
 
 
-pasto.addEventListener("click",(){
+pasto.addEventListener("click",function(){
     function redireccionar(){
         location.href = './pasto.html'
      }
