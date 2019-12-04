@@ -111,17 +111,56 @@ title:active {
 }
 
 .vaca-img {
-    width: 50%;
-    position: relative;
-    top: 50%;
-    transform: translate(50%, -50%);
+    width: 40%;
 }
+
+.cowTextSec {
+    text-align: left;
+    line-height: .8rem;
+}
+
+.cow-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* position: relative;
+    top: 50%;
+    transform: translate(50%, -50%); */
 
 #menuToggle input:checked~ul {
     right: -1.97rem;
 }
 
+.vaca-principal {
+    width: 100%;
+    background-image: url(../../assets/vaca.png);
+    height: 22rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+.none-mobile {
+    display: none
+}
+
+.row {
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+}
+
 @media (max-width: 768px) {
+    .none-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     .title {
         justify-content: center
     }
@@ -151,15 +190,19 @@ title:active {
         padding: 4rem;
         height: 60%;
     }
-    .vaca-img {
-        width: 50%;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .three-border-w {
+        width: 90%;
     }
+    .vaca-img {
+        width: 24%;
+        /* position: relative; */
+    }
+    /* position: relative; */
+    /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
     p {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
     }
     .sz-2 {
@@ -172,5 +215,34 @@ title:active {
     .flex-end {
         display: flex;
         justify-content: center
+    }
+    .vaca-principal {
+        width: 100%;
+        height: 49.5rem;
+    }
+    .none-desktop {
+        display: none
+    }
+    .mobile-cow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cow-container {
+        height: auto;
+    }
+    .cow-text-mob-container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+    .arrowWhite1 {
+        width: 3.9rem;
+        height: 3.4rem;
+    }
+    .text-wrap {
+        width: 22%;
+        line-height: 2rem;
     }
 }

@@ -159,12 +159,37 @@ a:active {
         right: 2%;
     }
     .blog0img {
-        width: 23.603rem;
+        width: 30.61rem;
     }
     .f1_2 {
         font-size: 1.5rem;
     }
     .vw40 {
         width: 30%;
+    }
+    .f1_5 {
+        font-size: 2.5rem;
+    }
+    .cat-title {
+        font-size: 4.5rem;
+    }
+    .f1_2 {
+        font-size: 2.5rem;
+    }
+    .arrowWhite1 {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 0.4rem;
+    }
+    .example-three nav {
+        margin-top: 17%;
+        border-radius: 0 0 3px 3px;
+        padding-top: 0rem;
+        height: 77%;
+        overflow-x: scroll;
+    }
+    .arrowWhite2 {
+        width: 4.2rem;
+        height: 4.1rem;
     }
 }
