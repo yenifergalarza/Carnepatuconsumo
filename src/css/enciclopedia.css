@@ -108,10 +108,11 @@ title:active {
 
 .w-80 {
     width: 80%;
+    padding-top: 6%;
 }
 
 .vaca-img {
-    width: 40%;
+    width: 30%;
 }
 
 .cowTextSec {
@@ -139,7 +140,7 @@ title:active {
 .vaca-principal {
     width: 100%;
     background-image: url(../../assets/vaca.png);
-    height: 22rem;
+    height: 18.5rem;
     background-position: center;
     background-size: contain;
     background-repeat-x: no-repeat;
