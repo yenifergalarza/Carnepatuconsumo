@@ -158,15 +158,18 @@ title:active {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    .contenedor-enciclopedia{
+        margin-top: 8rem;
+    }
     h1{
         font-size: 5rem!important;
     }
     p {
-        font-size: 2.5rem;
+        font-size: 3rem;
         text-align: center;
     }
     .sz-2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .arrowWhite1 {
         width: 4.5rem;
