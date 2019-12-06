@@ -51,7 +51,7 @@ main {
 
 .arrowWhite {
     width: 1.5rem;
-    height: 1.5rem;
+    height: auto;
 }
 
 .al-ite {
@@ -60,7 +60,7 @@ main {
 
 .arrowWhite1 {
     width: 1.9rem;
-    height: 1.4rem;
+    height: auto;
 }
 
 .center {
@@ -126,7 +126,7 @@ title:active {
         justify-content: center
     }
     .line-h {
-        width: 60%;
+        width: 90%;
     }
     #menuToggle input:checked~ul {
         right: -3.3rem;
@@ -158,16 +158,23 @@ title:active {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    h1{
+        font-size: 5rem!important;
+    }
     p {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         text-align: center;
     }
     .sz-2 {
         font-size: 2rem;
     }
+    .arrowWhite1 {
+        width: 4.5rem;
+        height: auto;
+    }
     .arrowWhite {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: auto;
     }
     .flex-end {
         display: flex;
