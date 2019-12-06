@@ -156,6 +156,28 @@ title:active {
     margin-left: 0rem !important;
 }
 
+.divRound {
+    background: white;
+    border-radius: 2rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.borderdash {
+    border: 3px dashed white;
+}
+
+#pescuezo {
+    position: relative;
+    top: -4.1rem;
+    left: 2rem;
+    padding: 1.8rem 0rem 2.5rem 0rem;
+    transform: skewX(22deg);
+    clip-path: polygon(41% -26%, 255% 69%, -3% 95%, -62% 40%, 4% 9%);
+    background: aquamarine;
+    filter: drop-shadow(0px 1px 0px blue) drop-shadow(2px 0px 0px blue) drop-shadow(-2px 0px 0px blue) drop-shadow(0px -2px 0px blue);
+}
+
 @media (max-width: 768px) {
     .none-mobile {
         display: flex;
