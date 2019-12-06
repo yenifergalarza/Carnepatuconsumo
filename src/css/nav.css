@@ -112,10 +112,22 @@ footer {
         height: 40%;
     }
     header .logo-mafrox{
-        width: 25rem;
+        width: 40rem;
         height: auto;
     }
     header nav a{
-        font-size: 2rem;
+        font-size: 3.5rem;
+    }
+    header .hamb{
+        font-size: 6rem
+    }
+    header .logo-m{
+        width: 10rem;
+    }
+    .iconH{
+        font-size: 5rem;
+    }
+    header nav a{
+        margin: 3rem 0;
     }
 }
