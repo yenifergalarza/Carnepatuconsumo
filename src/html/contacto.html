@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/contact.css">
     <script src="../js/jquery.js"></script>
 </head>
+
 <body>
     <main class="vh100 ">
         <header>
@@ -73,33 +74,33 @@
 
                 </div>
                 <div class="black-low w80-xs m-2 p-5 flex flex-column h50">
-                    <form class="flex flex-column w100  ">
+                    <form class="flex flex-column w100" action="../php/enviar.php" method="post">
                         <div class="w100">
                             <div class="row w100">
                                 <div class="col">
-                                    <input type="text" class="form-control m-2" placeholder="Nombre">
+                                    <input type="text" class="form-control m-2" placeholder="Nombre" id="name" name="name">
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control m-2" placeholder="Apellido">
+                                    <input type="text" class="form-control m-2" placeholder="Apellido" id="apellido" name="apellido">
                                 </div>
                             </div>
                             <div class="row w100">
                                 <div class="col">
-                                    <input type="text" class="form-control m-2" placeholder="Dirección">
+                                    <input type="text" class="form-control m-2" placeholder="Dirección" id="direccion" name="direccion">
                                 </div>
 
                             </div>
                             <div class="row w100">
                                 <div class="col">
-                                    <input type="email" class="form-control m-2" placeholder="E-mail">
+                                    <input type="email" class="form-control m-2" placeholder="E-mail" id="correo" name="correo">
                                 </div>
                                 <div class="col">
-                                    <input type="tel" class="form-control m-2" placeholder="Telefono">
+                                    <input type="tel" class="form-control m-2" placeholder="Telefono" id="telefono" name="telefono">
                                 </div>
                             </div>
                             <div class="row w100">
                                 <div class="col">
-                                    <input type="text" class="form-control m-2" placeholder="Consulta">
+                                    <input type="text" class="form-control m-2" placeholder="Consulta" id="mensaje" name="mensaje">
                                 </div>
 
                             </div>
