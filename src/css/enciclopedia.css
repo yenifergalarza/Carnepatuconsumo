@@ -152,6 +152,10 @@ title:active {
     border: 3px dashed white;
 }
 
+.cowTextSec {
+    color: white
+}
+
 #pescuezo {
     position: relative;
     top: -4.1rem;
@@ -164,6 +168,9 @@ title:active {
 }
 
 @media (max-width: 768px) {
+    .none-mobile {
+        display: block;
+    }
     p {
         margin-bottom: .8rem !important;
     }
@@ -201,7 +208,10 @@ title:active {
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 0%);
+    }
+    .none-desktop {
+        display: none !important;
     }
     h1 {
         font-size: 5rem!important;
