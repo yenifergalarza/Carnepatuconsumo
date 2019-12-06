@@ -21,4 +21,7 @@
     #menuToggle input:checked~ul {
         right: -5.29rem;
     }
+    .atras{
+        width: 5rem;
+    }
 }
