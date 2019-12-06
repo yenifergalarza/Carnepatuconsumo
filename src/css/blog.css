@@ -30,7 +30,7 @@ main {
 }
 
 .example-three .card-meat {
-    width: 20rem;
+    width: 22rem;
     margin-right: 0rem !important;
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 .f1_2 {
-    font-size: .9rem;
+    font-size: .8rem;
     line-height: 1.2;
     margin-bottom: 0rem;
 }
@@ -127,4 +127,69 @@ a,
 a:hover,
 a:active {
     text-decoration: none !important;
+}
+
+.centered-carnes {
+    width: 108%;
+}
+
+.scroll {
+    overflow-y: hidden;
+    overflow-x: hidden
+}
+
+@media (max-width:768px) {
+    .scroll {
+        overflow-y: scroll;
+        overflow-x: hidden
+    }
+    .centered-carnes {
+        width: 100%;
+    }
+    main {
+        width: 100vw;
+    }
+    .blogs {
+        height: 15rem;
+    }
+    .example-three .card-meat {
+        width: 40rem;
+    }
+    footer {
+        right: 2%;
+    }
+    .blog0img {
+        width: 30.61rem;
+    }
+    .f1_2 {
+        font-size: 1.5rem;
+    }
+    .vw40 {
+        width: 30%;
+    }
+    .f1_5 {
+        font-size: 2.5rem;
+    }
+    .cat-title {
+        font-size: 4.5rem;
+    }
+    .f1_2 {
+        font-size: 2.5rem;
+    }
+    .arrowWhite1 {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 0.4rem;
+    }
+    .example-three nav {
+        margin-top: 17%;
+        border-radius: 0 0 3px 3px;
+        padding-top: 0rem;
+        height: 77%;
+        overflow-x: scroll;
+    }
+    .arrowWhite2 {
+        width: 4.2rem;
+        height: 4.1rem;
+    }
 }
