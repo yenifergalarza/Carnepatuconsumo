@@ -46,3 +46,6 @@ $_SESSION['captcha']=$captcha;
 header("Content-type:image/png");
 imagepng($image);
 imagedestroy($image);
+
+
+
