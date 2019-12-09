@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=}, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -106,11 +108,11 @@
                             </div>
                         </div>
 
-                        <div class="elem-group">
+                        <div class="elem-group  white-font ">
                             <label for="captcha">Please Enter the Captcha Text</label>
                             <img src="../php/captcha.php" alt="CAPTCHA" class="captcha-image"><i class="fas fa-redo refresh-captcha"></i>
                             <br>
-                            <input type="text" id="captcha" name="captcha_challenge" pattern="[A-Z]{6}">
+                            <input type="text" id="captcha" class="form-control m-2" name="captcha_challenge" pattern="[A-Z]{6}">
                         </div>
 
                         <button type="submit" class="mt-5 btn-green green">ENVIAR</button>
@@ -127,6 +129,12 @@
         </footer>
     </main>
     <script src="../js/nav.js"></script>
+    <script>
+        var refreshButton = document.querySelector(".refresh-captcha");
+        refreshButton.onclick = function() {
+            document.querySelector(".captcha-image").src = '../php/captcha.php?' + Date.now();
+        }
+    </script>
 </body>
 
 </html>

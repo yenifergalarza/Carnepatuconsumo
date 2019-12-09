@@ -136,7 +136,7 @@ main {
 }
 
 .p-5-xs {
-    padding: 5rem;
+    padding: 2rem;
 }
 
 #menuToggle input:checked~ul {
