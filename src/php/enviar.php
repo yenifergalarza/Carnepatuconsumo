@@ -33,5 +33,5 @@ $telefono = $_POST["telefono"];
 $mensaje = $_POST["mensaje"];
 $contenido="Nombre: ".$nombre + $apellido."\nCorreo: ".$correo."\ntelefono:".$telefono."\nMensaje: ".$mensaje."\nDireccion: ".$direccion;
  mail($destino,"Contacto", $contenido);
- header("Location: contacti.html");
+ header("Location: contacto.html");
                                                             ?>
