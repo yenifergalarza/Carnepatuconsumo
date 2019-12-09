@@ -59,7 +59,7 @@ main {
 }
 
 .arrowWhite1 {
-    width: 1.9rem;
+    width: 1.5rem;
     height: auto;
 }
 
@@ -72,7 +72,7 @@ main {
 }
 
 p {
-    margin-bottom: .8rem !important;
+    margin-bottom: .0rem !important;
 }
 
 a:hover {
@@ -111,17 +111,69 @@ title:active {
 }
 
 .vaca-img {
-    width: 50%;
+    width: 35%;
     position: relative;
-    top: 50%;
-    transform: translate(50%, -50%);
+    top: 0%;
+    transform: translate(50%, 0%);
 }
 
 #menuToggle input:checked~ul {
     right: -1.97rem;
 }
 
+.vaca-principal {
+    width: 100%;
+    background-image: url(../../assets/vaca.png);
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+.none-mobile {
+    display: none
+}
+
+.row {
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+}
+
+.divRound {
+    background: white;
+    border-radius: 2rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.borderdash {
+    border: 3px dashed white;
+}
+
+.cowTextSec {
+    color: white
+}
+
+#pescuezo {
+    position: relative;
+    top: -4.1rem;
+    left: 2rem;
+    padding: 1.8rem 0rem 2.5rem 0rem;
+    transform: skewX(22deg);
+    clip-path: polygon(41% -26%, 255% 69%, -3% 95%, -62% 40%, 4% 9%);
+    background: aquamarine;
+    filter: drop-shadow(0px 1px 0px blue) drop-shadow(2px 0px 0px blue) drop-shadow(-2px 0px 0px blue) drop-shadow(0px -2px 0px blue);
+}
+
 @media (max-width: 768px) {
+    .none-mobile {
+        display: block;
+    }
+    p {
+        margin-bottom: .8rem !important;
+    }
     .title {
         justify-content: center
     }
@@ -156,20 +208,20 @@ title:active {
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 0%);
     }
-    .contenedor-enciclopedia{
-        margin-top: 8rem;
+    .none-desktop {
+        display: none !important;
     }
-    h1{
+    h1 {
         font-size: 5rem!important;
     }
     p {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
     }
     .sz-2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .arrowWhite1 {
         width: 4.5rem;
