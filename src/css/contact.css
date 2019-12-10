@@ -103,10 +103,9 @@ main {
     font-size: 2rem;
 }
 
-.form-control:focus {}
-
 .form-control,
-.form-control:focus {
+.form-control:focus,
+.form-control:active {
     font-size: 2rem;
     line-height: 1.5;
     color: #ffffff8d !important;
