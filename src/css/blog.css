@@ -155,6 +155,7 @@ a:active {
         background: transparent;
     }
     .title {
+        padding: 2rem;
         margin-bottom: 0rem;
         display: flex;
         align-items: center;
@@ -178,10 +179,10 @@ a:active {
         background-attachment: fixed;
     }
     .blogs {
-        height: 30rem;
+        height: 28rem;
     }
     .example-three .card-meat {
-        width: 70rem;
+        width: 65rem;
         margin-bottom: 15rem;
     }
     footer {
@@ -205,9 +206,9 @@ a:active {
         font-size: 3.5rem;
     }
     .arrowWhite1 {
-        width: 5rem;
-        height: 5rem;
-        margin-top: 0.4rem;
+        width: 7rem;
+        height: 7rem;
+        margin-top: 1.4rem;
     }
     .example-three nav {
         margin-top: 17%;
@@ -257,5 +258,8 @@ a:active {
     }
     .carousel-control-next {
         right: 5rem !important;
+    }
+    .text-mobile-blog {
+        padding: 9rem !important;
     }
 }
