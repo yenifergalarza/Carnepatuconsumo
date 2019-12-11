@@ -18,7 +18,7 @@ const enlatados = document.getElementById('enlatados');
 
 const view40 = document.getElementById("vw40HideOrShow");
 const view60 = document.getElementById("vw60HideOrShow");
-const goBackP = document.getElementById("goBackP");
+const goBackP = document.querySelectorAll(".goBackP");
 
 const funcOfMeat1 = () => {
     parrilleras.classList.add("dBlock");
@@ -55,6 +55,8 @@ const funcOfMeat2 = () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
+    view40.classList.add("dNone")
+    view60.classList.remove("dNone")
 }
 op2.addEventListener("click", () => {
     funcOfMeat2();
@@ -72,6 +74,8 @@ const funcOfMeat3 = () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
+    view40.classList.add("dNone")
+    view60.classList.remove("dNone")
 }
 op3.addEventListener("click", () => {
     funcOfMeat3();
@@ -90,6 +94,8 @@ const funcOfMeat4 = () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
+    view40.classList.add("dNone")
+    view60.classList.remove("dNone")
 }
 op4.addEventListener("click", () => {
     funcOfMeat4();
@@ -107,6 +113,8 @@ const funcOfMeat5 = () => {
     especiales.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
+    view40.classList.add("dNone")
+    view60.classList.remove("dNone")
 
 }
 op5.addEventListener("click", () => {
@@ -157,6 +165,7 @@ cp1.addEventListener('click', () => {
 
     </article>
 </div>`;
+
     const toP = document.getElementById('toParrillera');
     toP.addEventListener("click", () => {
         funcOfMeat1();
@@ -166,12 +175,15 @@ cp1.addEventListener('click', () => {
 
 })
 
-
-
-goBackP.addEventListener("click", () => {
-    view60.classList.add("dNone");
-    view40.classList.remove("dNone");
+goBackP.forEach(function(oneEach) {
+    oneEach.addEventListener("click", () => {
+        view60.classList.add("dNone");
+        view40.classList.remove("dNone");
+    });
 });
+
+
+
 
 if (screen.width < 768) {
 
