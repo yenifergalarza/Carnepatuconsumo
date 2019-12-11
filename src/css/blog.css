@@ -100,7 +100,7 @@ h1 {
 }
 
 .catalog-text {
-    top: 50%;
+    top: 55%;
 }
 
 .cat-title {
@@ -211,7 +211,6 @@ a:active {
         margin-top: 1.4rem;
     }
     .example-three nav {
-        margin-top: 17%;
         border-radius: 0 0 3px 3px;
         padding-top: 0rem;
         height: 77%;
@@ -236,6 +235,8 @@ a:active {
         display: flex;
         justify-content: center;
         height: auto;
+        margin-top: 20rem;
+        margin-bottom: 25rem;
     }
     .flex-two {
         margin-right: 1.5rem;
