@@ -346,6 +346,12 @@ input[type="radio"]:checked+span {
 }
 
 @media (max-width: 768px) {
+    .catalog-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
     .bothMeat {
         height: 80%;
         display: flex;
@@ -391,7 +397,7 @@ input[type="radio"]:checked+span {
         height: 4.6rem;
     }
     .ftsz-2 {
-        font-size: 3rem;
+        font-size: 6rem;
     }
     .ftsz-3-5 {
         font-size: 7.5rem;
@@ -401,8 +407,8 @@ input[type="radio"]:checked+span {
         left: -20%;
     }
     .radio input:checked+span:before {
-        -webkit-transform: scale(1.04);
-        transform: scale(1.04);
+        -webkit-transform: scale(3.04);
+        transform: scale(3.04);
         font-size: 1.5rem;
         width: 1rem;
         border-color: transparent #fff;
@@ -421,7 +427,7 @@ input[type="radio"]:checked+span {
         display: block;
         border-color: transparent #fff;
         left: .6rem;
-        top: 1.3rem;
+        top: 3.3rem;
         position: absolute;
     }
     .f1_5 {
@@ -431,7 +437,7 @@ input[type="radio"]:checked+span {
         font-size: 3.2rem;
     }
     .radio input+span:not(:empty) {
-        padding-left: 3rem;
+        padding-left: 5rem;
     }
     .markets3 {
         width: 7rem;
