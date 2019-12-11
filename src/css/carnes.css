@@ -488,6 +488,14 @@ input[type="radio"]:checked+span {
     width: 3.2rem;
 }
 
+.container-market31 {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    align-items: center;
+    background-color: #0000006e;
+}
+
 @media (max-width:780px) {
     .one-container {
         display: flex;

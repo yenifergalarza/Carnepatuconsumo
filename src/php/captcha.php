@@ -1,60 +1,51 @@
-<?php
- 
-session_start();
- 
-$permitted_chars = 'ABCDEFGHIJKLMNPQRSTUVWXYZ';
-  
-function generate_string($input, $strength = 10) {
-    $input_length = strlen($input);
-    $random_string = '';
-    for($i = 0; $i < $strength; $i++) {
-        $random_character = $input[mt_rand(0, $input_length - 1)];
-        $random_string .= $random_character;
+<?php 
+$largura= 110;
+$altura=35;
+$max_chars=6;
+$padding=($largura/$altura);
+$espaco_por_char=$largura/$max_chars;
+$image=imagecreatetruecolor($largura,$altura);
+$fundo_cor=imagecolorallocate($image,0x99,0xCC,0x65);
+$azul_escuro=imagecolorallocate($image,0x99,0xc9,0xCC);
+$preto=imagecolorallocate($image,0,0,0);
+$branco=imagecolorallocate($image,255,255,255);
+
+
+imagefill($image,0,0,$fundo_cor);
+$random_char=function(){
+    return chr(rand(65,90));
+};
+
+$path=realpath(".") . DIRECTORY_SEPARATOR . "fontscaptcha" . DIRECTORY_SEPARATOR ;
+$fonts = array_diff(scandir($path),array(".",".."));
+
+$captcha = "";
+$tamanho_fonte = floor((40/100)*$altura) ;
+$i=0;
+foreach(range(0,$largura,$espaco_por_char)as $x){
+    if($x < $largura){
+        $char = $random_char();
+        $captcha .= $char;
+        $angulo = rand(0,45);
+        imagettftext($image,$tamanho_fonte,$angulo,$x + ($tamanho_fonte/2),($tamanho_fonte * rand(1.5,2) + $padding),
+    rand(0,1) ? $preto:$branco,
+    $path . $fonts[array_rand($fonts)],
+    $char 
+    );
     }
-  
-    return $random_string;
 }
- 
-$image = imagecreatetruecolor(200, 50);
- 
-imageantialias($image, true);
- 
-$colors = [];
- 
-$red = rand(125, 175);
-$green = rand(125, 175);
-$blue = rand(125, 175);
- 
-for($i = 0; $i < 5; $i++) {
-  $colors[] = imagecolorallocate($image, $red - 20*$i, $green - 20*$i, $blue - 20*$i);
+
+for($i=0;$i<3;$i++){
+
+    imagesetthickness($image,rand(1,2));
+    imageline($image,rand(0,$largura),0,rand(0,$largura),$altura,$azul_escuro);
 }
- 
-imagefill($image, 0, 0, $colors[0]);
- 
-for($i = 0; $i < 10; $i++) {
-  imagesetthickness($image, rand(2, 10));
-  $line_color = $colors[rand(1, 4)];
-  imagerectangle($image, rand(-10, 190), rand(-10, 10), rand(-10, 190), rand(40, 60), $line_color);
-}
- 
-$black = imagecolorallocate($image, 0, 0, 0);
-$white = imagecolorallocate($image, 255, 255, 255);
-$textcolors = [$black, $white];
- 
-$fonts = [dirname(__FILE__).'\fontscaptcha\Acme.ttf', dirname(__FILE__).'\fontscaptcha\Ubuntu.ttf', dirname(__FILE__).'\fontscaptcha\Merriweather.ttf', dirname(__FILE__).'\fontscaptcha\PlayfairDisplay.ttf'];
- 
-$string_length = 6;
-$captcha_string = generate_string($permitted_chars, $string_length);
- 
-$_SESSION['captcha_text'] = $captcha_string;
- 
-for($i = 0; $i < $string_length; $i++) {
-  $letter_space = 170/$string_length;
-  $initial = 15;
-   
-  imagettftext($image, 24, rand(-15, 15), $initial + $i*$letter_space, rand(25, 45), $textcolors[rand(0, 1)], $fonts[array_rand($fonts)], $captcha_string[$i]);
-}
- 
-header('Content-type: image/png');
+
+session_start();
+$_SESSION['captcha']=$captcha;
+header("Content-type:image/png");
 imagepng($image);
-im
+imagedestroy($image);
+
+
+

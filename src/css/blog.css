@@ -1,8 +1,16 @@
 main {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.32)), url(../../assets/_B9A0774.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A0774.jpg);
     background-size: cover;
     height: 100vh;
     width: 130%;
+}
+
+.vw40 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62));
+}
+
+body {
+    overflow-y: hidden;
 }
 
 .container {
@@ -23,10 +31,6 @@ main {
     justify-content: center;
     display: flex;
     align-items: center;
-}
-
-.vw40 {
-    background: linear-gradient( rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.62))
 }
 
 .example-three .card-meat {
@@ -62,8 +66,7 @@ h1 {
 
 .blog0img {
     position: relative;
-    left: -4.5rem;
-    width: 30.603rem;
+    width: 100%;
     border-bottom: 4px solid #b1c280;
 }
 
@@ -105,7 +108,7 @@ h1 {
 }
 
 .vw40 {
-    width: 23.2%;
+    width: 20.2%;
 }
 
 
@@ -138,7 +141,32 @@ a:active {
     overflow-x: hidden
 }
 
+.d-none-desktop {
+    display: none;
+}
+
+.fa-chevron-right,
+.fa-chevron-down {
+    display: none;
+}
+
 @media (max-width:768px) {
+    .vw40 {
+        background: transparent;
+    }
+    .title {
+        padding: 2rem;
+        margin-bottom: 0rem;
+        display: flex;
+        align-items: center;
+    }
+    .vh100 {
+        height: auto;
+        width: 100%;
+    }
+    body {
+        overflow-y: scroll;
+    }
     .scroll {
         overflow-y: scroll;
         overflow-x: hidden
@@ -147,39 +175,40 @@ a:active {
         width: 100%;
     }
     main {
-        width: 100vw;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.62)), url(../../assets/_B9A0994.jpg);
+        background-attachment: fixed;
     }
     .blogs {
-        height: 15rem;
+        height: 28rem;
     }
     .example-three .card-meat {
-        width: 40rem;
+        width: 65rem;
+        margin-bottom: 15rem;
     }
     footer {
         right: 2%;
-    }
-    .blog0img {
-        width: 30.61rem;
     }
     .f1_2 {
         font-size: 1.5rem;
     }
     .vw40 {
-        width: 30%;
+        padding-top: 7rem;
+        width: 100%;
+        height: auto;
     }
     .f1_5 {
-        font-size: 2.5rem;
-    }
-    .cat-title {
         font-size: 4.5rem;
     }
+    .cat-title {
+        font-size: 10.5rem;
+    }
     .f1_2 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     .arrowWhite1 {
-        width: 5rem;
-        height: 5rem;
-        margin-top: 0.4rem;
+        width: 7rem;
+        height: 7rem;
+        margin-top: 1.4rem;
     }
     .example-three nav {
         margin-top: 17%;
@@ -191,5 +220,46 @@ a:active {
     .arrowWhite2 {
         width: 4.2rem;
         height: 4.1rem;
+    }
+    .centered-carnes {
+        top: 50%;
+        transform: translateY(-52%);
+        height: 67%;
+    }
+    .vw60 {
+        width: 100%;
+    }
+    .d-none-cel {
+        display: none;
+    }
+    .d-none-desktop {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    .flex-two {
+        margin-right: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem;
+    }
+    .fa-chevron-right,
+    .fa-chevron-down {
+        display: block;
+        color: #b1c280;
+        font-size: 12rem;
+    }
+    .fa-chevron-down {
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .carousel-control-next {
+        right: 5rem !important;
+    }
+    .text-mobile-blog {
+        padding: 9rem !important;
     }
 }

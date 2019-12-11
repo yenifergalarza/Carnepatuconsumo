@@ -1,8 +1,6 @@
-
-                                                       
-
-
 <?php
+session_start();
+
 $nombre = $_POST['nombre'];
 $apellido = $_POST['apellido'];
 $direccion = $_POST['direccion'];
@@ -10,8 +8,9 @@ $correo = $_POST['correo'];
 $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
 
+
 $body = "De : $nombre  $apellido <br> ";
-$body .= "Dirección : $direccion <br> ";
+$body .= "Desde : $direccion <br> ";
 $body .= "Correo : $correo <br> ";
 $body .= "Telefono : $telefono <br> ";
 $body .= "Mensaje : $mensaje <br> ";
@@ -49,12 +48,22 @@ try {
     $mail->Subject = 'Hola envio el correo desde local host';
     $mail->Body    = $body;
     $mail -> CharSet = 'UTF-8';
-    $mail->send();
-    echo '<script>
+    if(isset($_POST['captcha_challenge']) && ($_POST['captcha_challenge']) == $_SESSION['captcha']) {
+       $mail->send();
+ echo '<script>
     alert("el mensaje se envio correctamente");
     window.history.go(-1);
-    </script>
-    ';
+    </script>  ';
+    }
+
+    else{
+        echo '<script>
+        alert("el captcha es incorrecto");
+    
+        </script> ';
+    }
+  
+   
 } catch (Exception $e) {
     echo "hubo un error al enviar: {$mail->ErrorInfo}";
 } ?>

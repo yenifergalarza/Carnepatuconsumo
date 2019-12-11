@@ -81,7 +81,7 @@ main {
 }
 
 .ft-2-xs {
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .center {
@@ -103,10 +103,9 @@ main {
     font-size: 2rem;
 }
 
-.form-control:focus {}
-
 .form-control,
-.form-control:focus {
+.form-control:focus,
+.form-control:active {
     font-size: 2rem;
     line-height: 1.5;
     color: #ffffff8d !important;
@@ -136,7 +135,7 @@ main {
 }
 
 .p-5-xs {
-    padding: 5rem;
+    padding: 2rem;
 }
 
 #menuToggle input:checked~ul {

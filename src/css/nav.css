@@ -1,38 +1,38 @@
-header{
-	text-align: center;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
-	position: fixed;
-	z-index: 2;
-	width: 100%;
-	top: 0;
-	left: 0;
+header {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
-header .container-fluid{
-	display: flex;
+header .container-fluid {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
 }
-header .link-logo
-{
-	margin: 0
-}
-header .hamb
-{
-	color: #fff;
-	font-size: 3rem;
-	z-index: 3;
+
+header .link-logo {
+    margin: 0
 }
 
-header .logo-m{
-	width: 6rem;
-	height: auto;
+header .hamb {
+    color: #fff;
+    font-size: 3rem;
+    z-index: 3;
 }
 
-header nav{
+header .logo-m {
+    width: 6rem;
+    height: auto;
+}
+
+header nav {
     position: fixed;
     background-color: #000;
     width: 25%;
@@ -52,27 +52,31 @@ header nav{
     transition: all .4s ease-in;
 }
 
-header nav.abrir{
+header nav.abrir {
     transform: translateX(0%);
 }
 
-header nav a{
-	color: #fff;
+header nav a {
+    color: #fff;
     text-decoration: none;
     /* margin-right: 1rem; */
     /* margin-left: 1rem; */
     font-size: 1.5rem;
     margin: 2rem 0;
 }
-header nav a:hover{
+
+header nav a:hover {
     color: #fff;
     text-decoration: none;
-	transform: scale(1.2)
+    transform: scale(1.2)
 }
-header .logo-mafrox{
-	width: 16rem;
-	height: auto;
+
+header .logo-mafrox {
+    width: 16rem;
+    height: auto;
 }
+
+
 /* header nav a:visited{
 	color: #28a745;
     
@@ -95,7 +99,6 @@ header .logo-mafrox{
     color: white;
 }
 
-
 footer {
     position: absolute;
     bottom: 3%;
@@ -108,27 +111,27 @@ footer {
 }
 
 @media (max-width: 768px) {
-    header nav{
+    header nav {
         width: 60%;
     }
-    header .logo-mafrox{
+    header .logo-mafrox {
         width: 40rem;
         height: auto;
     }
-    header nav a{
+    header nav a {
         font-size: 3.5rem;
     }
-    header .hamb{
-        font-size: 6rem
+    header .hamb {
+        font-size: 10rem
     }
-    header .logo-m{
-        width: 10rem;
+    header .logo-m {
+        width: 14rem;
     }
-    .iconH{
+    .iconH {
         font-size: 5rem;
         margin-right: 5rem!important;
     }
-    header nav a{
+    header nav a {
         margin: 5rem 0;
     }
 }
