@@ -51,7 +51,7 @@
         .example-three nav {
             overflow-x: hidden !important;
             flex-wrap: wrap;
-            width: 94% !important;
+            width: 100% !important;
         }
         .textOneEach {
             width: 100%;
