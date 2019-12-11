@@ -15,6 +15,11 @@ const sancochados = document.getElementById('sancochados');
 const especiales = document.getElementById('especiales');
 const enlatados = document.getElementById('enlatados');
 
+
+const view40 = document.getElementById("vw40HideOrShow");
+const view60 = document.getElementById("vw60HideOrShow");
+const goBackP = document.getElementById("goBackP");
+
 const funcOfMeat1 = () => {
     parrilleras.classList.add("dBlock");
     guisos.classList.remove("dBlock");
@@ -27,6 +32,9 @@ const funcOfMeat1 = () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
+
+    view40.classList.add("dNone")
+    view60.classList.remove("dNone")
 }
 
 
@@ -157,3 +165,16 @@ cp1.addEventListener('click', () => {
 
 
 })
+
+
+
+goBackP.addEventListener("click", () => {
+    view60.classList.add("dNone");
+    view40.classList.remove("dNone");
+});
+
+if (screen.width < 768) {
+    alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height);
+
+    view60.classList.add("dNone")
+}

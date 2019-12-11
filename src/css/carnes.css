@@ -346,6 +346,13 @@ input[type="radio"]:checked+span {
 }
 
 @media (max-width: 768px) {
+    .bothMeat {
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     #menuToggle input:checked~ul {
         height: 120rem;
         position: absolute;
@@ -359,10 +366,13 @@ input[type="radio"]:checked+span {
         height: 92%;
     }
     .example-three nav {
+        padding-left: 26%;
+        width: 100%;
         align-items: center;
         border-radius: 0 0 3px 3px;
-        height: 80%;
+        height: auto;
         overflow-y: hidden;
+        height: 80%;
     }
     .example-three .card-meat {
         width: 80%;
@@ -384,10 +394,11 @@ input[type="radio"]:checked+span {
         font-size: 3rem;
     }
     .ftsz-3-5 {
-        font-size: 4.5rem;
+        font-size: 7.5rem;
     }
-    .txt-centered {
-        text-align: center;
+    .title {
+        position: relative;
+        left: -20%;
     }
     .radio input:checked+span:before {
         -webkit-transform: scale(1.04);
@@ -497,6 +508,12 @@ input[type="radio"]:checked+span {
 }
 
 @media (max-width:780px) {
+    .vw60 {
+        width: 100%;
+    }
+    .vw40 {
+        width: 100%;
+    }
     .one-container {
         display: flex;
         justify-content: center;
