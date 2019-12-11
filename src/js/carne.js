@@ -174,7 +174,7 @@ goBackP.addEventListener("click", () => {
 });
 
 if (screen.width < 768) {
-    alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height);
+
 
     view60.classList.add("dNone")
 }
