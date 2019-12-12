@@ -7,14 +7,3 @@ const funcOfMeat1 = () => {
     allBlogs.classList.add("dNone");
 
 }
-
-
-arrowBlog1.addEventListener("click", () => {
-    const pagina = "./blog0.html"
-
-    function redireccionar() {
-        location.href = pagina
-    }
-    setTimeout(redireccionar, 100);
-
-});
