@@ -176,7 +176,120 @@ cp1.addEventListener('click', () => {
                       <img class="arrowWhite11 " src="../../assets/atras.svg" id="toParrillera" >
                         <div><span class=" f1_51"> PARRILLERAS</span>
                             <p class="green  f1_21 pl-2 ">
-                                BISTECK DE CUADRIL</p>
+                                BISTECK DE CUADRIL 1</p>
+                        </div>
+
+
+                    </div>
+
+
+                    <p class="f11 pl-5 ">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quibusdam laboriosam ipsum earum quas impedit obcaecati beatae porro dicta
+
+                    </p>
+
+                </div>
+                <img class="carnePrincipalCard1 ml-5 mr-1" src="../../assets/carne1.png " alt=" ">
+
+                <div class="container-market31 p-4 ">
+                    <img src="../../assets/logo-metro.png " alt=" " class="markets31 ">
+                    <img src="../../assets/Logo_Jumbo_Cencosud.png " alt=" " class="markets31 ">
+                    <img src="../../assets/Logo_Wong_Cencosud.png " alt=" " class="markets31"></div>
+
+            </div>
+        </div>
+
+    </article>
+</div>`;
+
+
+    const toP = document.getElementById('toParrillera');
+    toP.addEventListener("click", () => {
+        funcOfMeat1();
+    })
+
+
+
+});
+
+cp2.addEventListener('click', () => {
+    parrilleras.classList.remove("dBlock");
+    parrilleras.classList.add("dNone");
+    divPlusItemContainer.classList.remove("dNone");
+    parrilleras.classList.remove("dBlock");
+    parrilleras.classList.remove("dBlock");
+
+
+    divPlusItemContainer.innerHTML = `     <div class="centered-carnes">
+    <article class="one-container">
+
+
+        <div class="card-meat1 ">
+            <div class=" h801 ">
+
+                <div class=" p-2 pl-5 pr-5 pt-5 h50m">
+                    <div class="title-card-meat1 ">
+                      <img class="arrowWhite11 " src="../../assets/atras.svg" id="toParrillera" >
+                        <div><span class=" f1_51"> PARRILLERAS</span>
+                            <p class="green  f1_21 pl-2 ">
+                                BISTECK DE CUADRIL 2</p>
+                        </div>
+
+
+                    </div>
+
+
+                    <p class="f11 pl-5 ">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quibusdam laboriosam ipsum earum quas impedit obcaecati beatae porro dicta
+
+                    </p>
+
+                </div>
+                <img class="carnePrincipalCard1 ml-5 mr-1" src="../../assets/carne1.png " alt=" ">
+
+                <div class="container-market31 p-4 ">
+                    <img src="../../assets/logo-metro.png " alt=" " class="markets31 ">
+                    <img src="../../assets/Logo_Jumbo_Cencosud.png " alt=" " class="markets31 ">
+                    <img src="../../assets/Logo_Wong_Cencosud.png " alt=" " class="markets31"></div>
+
+            </div>
+        </div>
+
+    </article>
+</div>`;
+
+
+    const toP = document.getElementById('toParrillera');
+    toP.addEventListener("click", () => {
+        funcOfMeat1();
+    })
+
+
+
+});
+
+
+cp3.addEventListener('click', () => {
+    parrilleras.classList.remove("dBlock");
+    parrilleras.classList.add("dNone");
+    divPlusItemContainer.classList.remove("dNone");
+    parrilleras.classList.remove("dBlock");
+    parrilleras.classList.remove("dBlock");
+
+
+    divPlusItemContainer.innerHTML = `     <div class="centered-carnes">
+    <article class="one-container">
+
+
+        <div class="card-meat1 ">
+            <div class=" h801 ">
+
+                <div class=" p-2 pl-5 pr-5 pt-5 h50m">
+                    <div class="title-card-meat1 ">
+                      <img class="arrowWhite11 " src="../../assets/atras.svg" id="toParrillera" >
+                        <div><span class=" f1_51"> PARRILLERAS</span>
+                            <p class="green  f1_21 pl-2 ">
+                                BISTECK DE CUADRIL 3</p>
                         </div>
 
 
