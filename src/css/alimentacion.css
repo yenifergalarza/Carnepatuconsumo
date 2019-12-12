@@ -94,7 +94,8 @@ hr {
     background-size: cover;
     height: 15rem;
 }
-.square:hover{
+
+.square:hover {
     transform: scale(1.3)!important;
     z-index: 10;
 }
@@ -156,6 +157,13 @@ hr {
 
 .w-30 {
     width: 30%;
+}
+
+.title,
+.title:active,
+.title:hover {
+    font-size: 5rem;
+    text-decoration: none;
 }
 
 @-webkit-keyframes entrarIzquierda {
@@ -482,9 +490,13 @@ hr {
         width: 30rem
     }
     .color-green {
-        font-size: 5rem
+        font-size: 5rem;
+        text-decoration: none;
     }
     .m-ul {
         margin: 3rem auto;
+    }
+    .atras {
+        width: 5rem;
     }
 }
