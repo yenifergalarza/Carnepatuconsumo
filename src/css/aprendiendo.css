@@ -145,7 +145,7 @@ main {
     .cont-sqs {
         padding-top: 0rem;
     }
-    h1{
+    h1 {
         font-size: 5rem;
     }
 }
@@ -158,7 +158,7 @@ main {
     }
     .square {
         z-index: 0;
-        width: 30rem;
-        height: 30rem;
+        width: 25rem;
+        height: 25rem;
     }
 }

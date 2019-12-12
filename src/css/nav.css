@@ -84,18 +84,24 @@ header .logo-mafrox {
 
 .border-white-btn {
     position: relative;
-    left: -3rem;
+    left: 29rem;
     top: .3rem;
     background: rgba(0, 0, 0, 0);
-    border: 1px solid;
-    padding: 2% 13.5%;
-    border-radius: 1.5rem;
+    background: transparent;
+    border: white 1px solid;
+    height: 3rem;
+    border-radius: 3.5rem;
     font-size: 1.2rem;
-    height: 60%;
-    width: 19rem;
+    width: 16%;
 }
 
-.white-font {
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+.white-font,
+.white-font:active {
     color: white;
 }
 
@@ -133,5 +139,17 @@ footer {
     }
     header nav a {
         margin: 5rem 0;
+    }
+    .border-white-btn {
+        position: relative;
+        left: -3rem;
+        top: .3rem;
+        background: rgba(0, 0, 0, 0);
+        background: transparent;
+        border: white 1px solid;
+        height: 7rem;
+        border-radius: 3.5rem;
+        font-size: 3.2rem;
+        width: 33%;
     }
 }

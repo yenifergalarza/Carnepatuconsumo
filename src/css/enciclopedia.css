@@ -75,7 +75,8 @@ p {
     margin-bottom: .0rem !important;
 }
 
-a:hover {
+a:hover,
+a:active {
     text-decoration: none;
 }
 
@@ -130,6 +131,7 @@ title:active {
     background-size: contain;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .none-mobile {
@@ -167,6 +169,10 @@ title:active {
     filter: drop-shadow(0px 1px 0px blue) drop-shadow(2px 0px 0px blue) drop-shadow(-2px 0px 0px blue) drop-shadow(0px -2px 0px blue);
 }
 
+header {
+    position: absolute;
+}
+
 @media (max-width: 768px) {
     .vh100 {
         height: auto;
@@ -194,9 +200,16 @@ title:active {
         flex-direction: column;
         height: 100%;
     }
+    .container-white {
+        position: relative;
+        padding-top: 50% !important;
+        padding-bottom: 50%;
+        top: 0%;
+        transform: unset;
+    }
     .vw40 {
         width: 100%;
-        height: 100vh;
+        height: auto;
         position: inherit;
         top: 0;
         z-index: auto;
@@ -224,14 +237,14 @@ title:active {
         text-align: center;
     }
     .sz-2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .arrowWhite1 {
         width: 4.5rem;
         height: auto;
     }
     .arrowWhite {
-        width: 3rem;
+        width: 4rem;
         height: auto;
     }
     .flex-end {
