@@ -184,7 +184,8 @@ cp1.addEventListener('click', () => {
 
 
                     <p class="f11 pl-5 ">
-                        ideal para parillas al horno y estufa
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quibusdam laboriosam ipsum earum quas impedit obcaecati beatae porro dicta
+
                     </p>
 
                 </div>
@@ -200,6 +201,7 @@ cp1.addEventListener('click', () => {
 
     </article>
 </div>`;
+
 
     const toP = document.getElementById('toParrillera');
     toP.addEventListener("click", () => {

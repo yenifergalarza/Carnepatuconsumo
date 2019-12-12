@@ -516,6 +516,27 @@ input[type="radio"]:checked+span {
     background-color: #0000006e;
 }
 
+.h50m {
+    padding-left: 0rem !important;
+    height: 30%;
+}
+
+.card-meat1 {
+    width: 80%;
+    height: 100%;
+}
+
+.carnePrincipalCard1 {
+    /* height: 93%; */
+    width: 43%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.markets31 {
+    width: 5.2rem;
+}
+
 @media (max-width:780px) {
     .title-card-meat1 {
         align-items: flex-start;
@@ -539,6 +560,33 @@ input[type="radio"]:checked+span {
         justify-content: center;
         align-items: center;
     }
+    .h801 {
+        height: auto;
+    }
+    .h50m {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+        height: auto;
+    }
+    .card-meat1 {
+        width: 80%;
+        height: auto;
+    }
+    .f1_51 {
+        font-size: 4.5rem;
+    }
+    .f1_21 {
+        font-size: 4.7rem;
+    }
+    .markets31 {
+        width: 8.2rem;
+    }
+    .carnePrincipalCard1 {
+        height: initial;
+        width: 60%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
 }
 
 .one-container {
@@ -549,19 +597,6 @@ input[type="radio"]:checked+span {
     height: 86%;
     top: 50%;
     transform: translateY(-10%);
-}
-
-.card-meat1 {
-    width: 80%;
-    height: 100%;
-}
-
-.f1_51 {
-    font-size: 4.5rem;
-}
-
-.f1_21 {
-    font-size: 4.7rem;
 }
 
 .container-market31 {
@@ -579,24 +614,8 @@ input[type="radio"]:checked+span {
     box-sizing: border-box;
 }
 
-.carnePrincipalCard1 {
-    height: 50%;
-    width: 70%;
-    padding-bottom: 10%;
-    padding-top: 10%;
-}
-
 .arrowWhite1 {
     border: none;
-}
-
-.markets31 {
-    width: 8.2rem;
-}
-
-.h50m {
-    padding-left: 0rem !important;
-    height: 30%;
 }
 
 .arrowWhite1 {
