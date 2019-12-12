@@ -21,6 +21,7 @@ const view60 = document.getElementById("vw60HideOrShow");
 const goBackP = document.querySelectorAll(".goBackP");
 
 const funcOfMeat1 = () => {
+    parrilleras.classList.remove("dNone");
     parrilleras.classList.add("dBlock");
     guisos.classList.remove("dBlock");
     sancochados.classList.remove("dBlock");
@@ -33,18 +34,25 @@ const funcOfMeat1 = () => {
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
 
-    view40.classList.add("dNone")
-    view60.classList.remove("dNone")
+
 }
 
 
 op1.addEventListener("click", () => {
     funcOfMeat1();
+    if (screen.width < 769) {
+
+
+        view40.classList.add("dNone");
+        view60.classList.remove("dNone");
+    }
+
 
 });
 
 const funcOfMeat2 = () => {
     guisos.classList.add("dBlock");
+    guisos.classList.remove("dNone");
     parrilleras.classList.remove("dBlock");
     sancochados.classList.remove("dBlock");
     especiales.classList.remove("dBlock");
@@ -55,14 +63,21 @@ const funcOfMeat2 = () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
-    view40.classList.add("dNone")
-    view60.classList.remove("dNone")
+
 }
 op2.addEventListener("click", () => {
     funcOfMeat2();
+    if (screen.width < 769) {
+
+
+        view40.classList.add("dNone");
+        view60.classList.remove("dNone");
+    }
+
 });
 
 const funcOfMeat3 = () => {
+    sancochados.classList.remove("dNone");
     sancochados.classList.add("dBlock");
     parrilleras.classList.remove("dBlock");
     guisos.classList.remove("dBlock");
@@ -74,15 +89,22 @@ const funcOfMeat3 = () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
-    view40.classList.add("dNone")
-    view60.classList.remove("dNone")
+
 }
 op3.addEventListener("click", () => {
     funcOfMeat3();
+    if (screen.width < 769) {
+
+
+        view40.classList.add("dNone");
+        view60.classList.remove("dNone");
+    }
+
 });
 
 
 const funcOfMeat4 = () => {
+    especiales.classList.remove("dNone");
     especiales.classList.add("dBlock");
     parrilleras.classList.remove("dBlock");
     sancochados.classList.remove("dBlock");
@@ -94,14 +116,21 @@ const funcOfMeat4 = () => {
     enlatados.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
-    view40.classList.add("dNone")
-    view60.classList.remove("dNone")
+
 }
 op4.addEventListener("click", () => {
     funcOfMeat4();
+    if (screen.width < 769) {
+
+
+        view40.classList.add("dNone");
+        view60.classList.remove("dNone");
+    }
+
 });
 
 const funcOfMeat5 = () => {
+    enlatados.classList.remove("dNone");
     enlatados.classList.add("dBlock");
     parrilleras.classList.remove("dBlock");
     sancochados.classList.remove("dBlock");
@@ -113,12 +142,18 @@ const funcOfMeat5 = () => {
     especiales.classList.add("dNone");
     divPlusItemContainer.classList.remove("dBlock");
     divPlusItemContainer.classList.add("dNone");
-    view40.classList.add("dNone")
-    view60.classList.remove("dNone")
+
 
 }
 op5.addEventListener("click", () => {
     funcOfMeat5();
+    if (screen.width < 769) {
+
+
+        view40.classList.add("dNone");
+        view60.classList.remove("dNone");
+    }
+
 });
 
 cp1.addEventListener('click', () => {
@@ -185,7 +220,7 @@ goBackP.forEach(function(oneEach) {
 
 
 
-if (screen.width < 768) {
+if (screen.width < 769) {
 
 
     view60.classList.add("dNone")
