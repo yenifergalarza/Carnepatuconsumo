@@ -370,8 +370,8 @@ input[type="radio"]:checked+span {
         height: 92%;
     }
     .example-three nav {
-        padding-left: 26%;
-        width: 100%;
+        padding-left: 19%;
+        width: 90%;
         align-items: center;
         border-radius: 0 0 3px 3px;
         height: auto;

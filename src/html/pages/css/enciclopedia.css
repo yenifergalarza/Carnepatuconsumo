@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../assets/_B9A0994.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../../assets/_B9A0616.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -89,7 +89,7 @@ title:active {
 }
 
 .line-h {
-    line-height: 1;
+    line-height: 1.3;
 }
 
 .l-s-0 {
@@ -124,13 +124,11 @@ title:active {
 
 .vaca-principal {
     width: 100%;
-    background-image: url(../assets/vaca.png);
+    background-image: url(../../assets/vaca.png);
     background-position: center;
     justify-content: center;
     align-items: center;
     background-size: contain;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
     background-repeat: no-repeat;
 }
 
@@ -174,6 +172,20 @@ header {
 }
 
 @media (max-width: 768px) {
+    .mt-xs{
+        margin-bottom: 3.5rem!important;
+    }
+    .ver-productos{
+        margin-top: 5rem!important;
+        padding-left: 47rem;
+    }
+    .three-border-w {
+       padding: 3rem!important;
+       margin-bottom: 3rem!important;
+    }
+    .contenedor-enciclopedia{
+        padding: 8rem!important;
+    }
     .vh100 {
         height: auto;
     }
@@ -184,7 +196,8 @@ header {
         margin-bottom: .8rem !important;
     }
     .title {
-        justify-content: center
+        justify-content: center;
+        padding-left: 4rem;
     }
     .line-h {
         width: 90%;
@@ -209,7 +222,6 @@ header {
     }
     .vw40 {
         width: 100%;
-        height: auto;
         position: inherit;
         top: 0;
         z-index: auto;
