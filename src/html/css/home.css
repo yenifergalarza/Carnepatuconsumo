@@ -35,8 +35,6 @@ main {
     width: 3rem;
 }
 
-
-
 .flex-between {
     display: flex;
     justify-content: space-between;
@@ -53,11 +51,12 @@ main {
 .cat-title {
     padding: .5rem 1.5rem;
 }
+
 @media (max-width: 768px) {
-    h1{
+    h1 {
         font-size: 5rem;
     }
-    p{
+    p {
         font-size: 3rem;
     }
 }
