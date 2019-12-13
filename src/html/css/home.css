@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    background-image: url(../../assets/fondo-home.png);
+    background-image: url(../assets/fondo-home.png);
     background-size: cover;
     background-position: center;
 }

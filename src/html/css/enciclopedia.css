@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../../assets/_B9A0994.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../assets/_B9A0994.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,7 +124,7 @@ title:active {
 
 .vaca-principal {
     width: 100%;
-    background-image: url(../../assets/vaca.png);
+    background-image: url(../assets/vaca.png);
     background-position: center;
     justify-content: center;
     align-items: center;

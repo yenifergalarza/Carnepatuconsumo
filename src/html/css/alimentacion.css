@@ -9,7 +9,7 @@ html {
 }
 
 main {
-    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../../assets/_B9A0616.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.52)), url(../assets/_B9A0616.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -134,14 +134,14 @@ hr {
 }
 
 .sq1 {
-    background-image: url("../../assets/Pasto.png");
+    background-image: url("../assets/Pasto.png");
     -webkit-animation: entrarIzquierda 1.1s both;
     animation: entrarIzquierda 1.1s both;
     cursor: pointer
 }
 
 .sq2 {
-    background-image: url("../../assets/grano.png");
+    background-image: url("../assets/grano.png");
     -webkit-animation: entrarAbajo 1.1s both;
     animation: entrarAbajo 1.1s both;
     cursor: pointer
